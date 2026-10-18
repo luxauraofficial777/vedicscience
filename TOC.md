@@ -1,16 +1,16 @@
 # MASTER TABLE OF CONTENTS (`TOC.md`)
-## Vedic Science — Transmodal Study Against Conventional Physics, Sound Logic Theorems, Quantum, and Bio-Mechanics (`SPH-01` → `XTR-01` / `MSL-ADD-01`)
+## Vedic Science — Transmodal Study Against Conventional Physics, Sound Logic Theorems, Quantum, and Bio-Mechanics (`SPH-01` → `XTR-01` / `MSL-ADD-01` → `FVT-01`)
 
 **Repository:** [`https://github.com/luxauraofficial777/vedicscience`](https://github.com/luxauraofficial777/vedicscience)  
-**Package ID:** `LUXAURA-REVISION-XTR01-FINAL`  
-**Governing Charter:** [`Revision.md`](Revision.md) (`REVISION-01`) · [`MANDATE_ADDENDUM_XTR.md`](MANDATE_ADDENDUM_XTR.md) (`MSL-ADD-01`) · [`CORPUS_INTEGRATION_REPORT_XTR01.md`](CORPUS_INTEGRATION_REPORT_XTR01.md)  
+**Package ID:** `LUXAURA-REVISION-XTR01-FINAL` · `LUXAURA-FVT01-ADDENDUM-FINAL`  
+**Governing Charter & Final Addendum:** [`Revision.md`](Revision.md) (`REVISION-01`) · [`MANDATE_ADDENDUM_XTR.md`](MANDATE_ADDENDUM_XTR.md) (`MSL-ADD-01`) · [`CORPUS_INTEGRATION_REPORT_XTR01.md`](CORPUS_INTEGRATION_REPORT_XTR01.md) · [`ADDENDUM_REPORT.md`](ADDENDUM_REPORT.md) (`FVT-01-ADDENDUM-FINAL`)  
 **License:** [`CC BY-NC 4.0`](LICENSE)
 
 ---
 
 ## Quick Navigation
-* **[Part 0 — Start Here: Reading Guide, Charter, Audit & Test Programme](#part-0--start-here-reading-guide-charter-audit--test-programme)**
-* **[Part I — Revised Edition Root Syntheses & Governance Charter (`*_REVISION.md`)](#part-i--revised-edition-root-syntheses--governance-charter-_revisionmd)**
+* **[Part 0 — Start Here: Reading Guide, Charter, Audit & Final Addendum (`FVT-01`)](#part-0--start-here-reading-guide-charter-audit--final-addendum-fvt-01)**
+* **[Part I — Revised Edition Root Syntheses, Governance Charter & Final Addendum (`*_REVISION.md` & `ADDENDUM_REPORT.md`)](#part-i--revised-edition-root-syntheses-governance-charter--final-addendum-_revisionmd--addendum_reportmd)**
 * **[Part II — Revised Edition Publication Package (`revision/`)](#part-ii--revised-edition-publication-package-revision)**
 * **[Part III — Canonical `XTR-01` Scale Ladders (`L1`–`L3`) & Cross-Domain Bridges (`B1`–`B6`) (`revision/xtr01_canonical/`)](#part-iii--canonical-xtr-01-scale-ladders-l1l3--cross-domain-bridges-b1b6-revisionxtr01_canonical)**
 * **[Part IV — Argon 95-Row `MSL-ADD-01` Re-Evaluation Suite (`revision/argon_reevaluation/`)](#part-iv--argon-95-row-msl-add-01-re-evaluation-suite-revisionargon_reevaluation)**
@@ -19,28 +19,34 @@
 
 ---
 
-## Part 0 — Start Here: Reading Guide, Charter, Audit & Test Programme
+## Part 0 — Start Here: Reading Guide, Charter, Audit & Final Addendum (`FVT-01`)
 
 1. **[`publicreadingguide.md`](publicreadingguide.md) (`PUBLIC-READING-GUIDE-01`)** — *Read this first.* What each verdict word means and does not mean; the three questions readers ask (*have the astras been verified? what did the study achieve? what is the verdict?*) answered from the ledger; what the repository does and does not claim; the two editions; how to verify and how to cite.
-2. **[`Revision.md`](Revision.md) (`REVISION-01`)** — Why the Revised Edition applies the Mandate's verdicts only to in-house data (*house cards, dealer's rules* → *our cards, our rules; not applied to others, in respect*).
-3. **[`MANDATE_ADDENDUM_XTR.md`](MANDATE_ADDENDUM_XTR.md) (`MSL-ADD-01`)** — Rules `R17`–`R19`, the re-grading map, the original test queue.
-4. **[`CORPUS_INTEGRATION_REPORT_XTR01.md`](CORPUS_INTEGRATION_REPORT_XTR01.md)** — Defects `D1`–`D13` and the canonical integration map for the `XTR-01` tracks.
-5. **[`revision/PROOFREAD_AUDIT.md`](revision/PROOFREAD_AUDIT.md) (`REVISION-PROOFREAD-01`, Rev B)** — The pre-publication audit of the Revised Edition package: checks, fixes `F1`–`F11`, the three owner-decided ledger rows, residuals.
-6. **[`WORK_OFFLOAD_DIRECTIVE_FVT01.md`](WORK_OFFLOAD_DIRECTIVE_FVT01.md) (`FVT-01`)** — The own-data test programme: 14 tests with a crosswalk of test IDs, rules `R20`–`R27`, pre-registration, bench-test preparation, data-intake schema. Results pending (`fvt01/`).
+2. **[`ADDENDUM_REPORT.md`](ADDENDUM_REPORT.md) (`FVT-01-ADDENDUM-FINAL`)** — *Final Verdict Tests (`FVT-01`) & Complete Study Addendum.* Consolidates the completed `FVT-01` desk tests (`WP-A`), bench-test pipelines & synthetic dry-runs (`WP-B`), independent verification audit (`Rule R23`), and `D4` staggered-FDTD remediation into the final 95-row tested claims ledger (**`20 SUPPORTED` · `5 CONTRADICTED` · `16 INCONSISTENT` · `25 PRIOR-CONSTRAINED` · `17 PRIOR-CONSISTENT` · `4 PROPOSED` · `4 PROPOSED-INCOMPLETE` · `4 ALLEGORY`**).
+3. **[`Revision.md`](Revision.md) (`REVISION-01`)** — Why the Revised Edition applies the Mandate's verdicts only to in-house data (*house cards, dealer's rules* → *our cards, our rules; not applied to others, in respect*).
+4. **[`MANDATE_ADDENDUM_XTR.md`](MANDATE_ADDENDUM_XTR.md) (`MSL-ADD-01`)** — Rules `R17`–`R19`, the re-grading map, the original test queue.
+5. **[`CORPUS_INTEGRATION_REPORT_XTR01.md`](CORPUS_INTEGRATION_REPORT_XTR01.md)** — Defects `D1`–`D13` and the canonical integration map for the `XTR-01` tracks.
+6. **[`revision/PROOFREAD_AUDIT.md`](revision/PROOFREAD_AUDIT.md) (`REVISION-PROOFREAD-01`, Rev B)** — The pre-publication audit of the Revised Edition package: checks, fixes `F1`–`F11`, the three owner-decided ledger rows, residuals.
+7. **[`WORK_OFFLOAD_DIRECTIVE_FVT01.md`](WORK_OFFLOAD_DIRECTIVE_FVT01.md) (`FVT-01`)** — The own-data test programme specification: 14 tests with a crosswalk of test IDs, rules `R20`–`R27`, pre-registration, bench-test preparation, and data-intake schema (final results reported in **[`ADDENDUM_REPORT.md`](ADDENDUM_REPORT.md)**).
 
 ---
 
-## Part I — Revised Edition Root Syntheses & Governance Charter (`*_REVISION.md`)
+## Part I — Revised Edition Root Syntheses, Governance Charter & Final Addendum (`*_REVISION.md` & `ADDENDUM_REPORT.md`)
 
-Located in the repository root (package copies in `revision/root_revision_docs/`):
+Located in the repository root (package copies in `revision/` and `revision/root_revision_docs/`):
 
-1. **[`Revision.md`](Revision.md) (`REVISION-01`)** — *Editorial & Epistemic Charter:* Contrasts the First Edition (*"House Cards, Dealer Rules"*) with the Revised Edition (*"Our Cards, Our Rules — Not Applied to Others, in Respect"*), explaining why external measurements are recorded as bars (`PRIOR-CONSTRAINED` / `PRIOR-CONSISTENT`) while verdicts (`SUPPORTED`, `CONTRADICTED`, `INCONSISTENT`) are written strictly by in-house data (`OWN-TEST`) and derivations (`DERIVATION`).
-2. **[`PUBLIC_REFLECTION_ARGON_REVISION.md`](PUBLIC_REFLECTION_ARGON_REVISION.md) (`ARGON-PUBLIC-REFLECTION-02-REVISION`)** — *Revised Public Whitepaper Summary:*
+1. **[`ADDENDUM_REPORT.md`](ADDENDUM_REPORT.md) (`FVT-01-ADDENDUM-FINAL`)** — *Final Study Addendum & Post-`FVT-01` Tested Synthesis:*
+   - **§1:** Executive Summary, Four-Phase Methodological Arc (`SPH-01` → `XTR-01` → `MSL-ADD-01` → `FVT-01`), and Final 95-Row Tested Verdict Distribution (`20 SUPPORTED`, `5 CONTRADICTED`, `16 INCONSISTENT`, `54` deferred/prior-bounded).
+   - **§2:** Work Package A (`WP-A`) Desk-Test Results (`FVT-01` through `FVT-04c`, `FVT-07` through `FVT-11`), featuring the remediated 1D staggered acoustic FDTD for the Great Pyramid King's Chamber (`FVT-10`: `1,570.30 Pa/m` vs. `1,570.80 Pa/m` analytic, `-0.0318%` → **`T03-003 SUPPORTED`**), the $10^5$-draw NIST ASD Monte Carlo null (`FVT-03`: $p(\text{H I}) = 1.00000$, $p(\text{Ca II}) = 0.93512$ → **`OWN-FIB` spectra instance `CONTRADICTED`**), the 5-base digital-root verification (`FVT-01` → **`OWN-369 CONTRADICTED`**), and the 2-station IGETS SG + linear confined poroelastic slab bound (`FVT-04a/b`: $\delta g_{\max} = 0.0839\text{ nm/s}^2 \le 3.49\%$ of observed $M_m$ residual).
+   - **§3:** Work Package B (`WP-B`) Bench-Test Pipelines & Synthetic Dry-Runs (`5/5 PASS` with $\text{FAR} \le 0.01$: `FVT-05` kHz $g$-modulation lock-in, `FVT-06` $Q^{-1}(\varepsilon)$ power-law sweep, `FVT-12` 112-well blinded acoustic cell assay, `FVT-13` Douady–Couder polar-FFT arm counter, and `FVT-14` kerf $E_s$, $R_a$, and Berktay $-86.50\text{ dB/decade}$ self-demodulation pipeline).
+   - **§4–§8:** Independent Verification Audit (`Rule R23`), Defects & Caveats (`D4` remediated, `D7`, `D14` node vs. wall gradient, `D15` 20-cycle `1.944%` true FDTD amplitude), Complete 95-Row Tested Claims Ledger, Cross-Band Synthesis (`Q`, `CE`, `V`, `B1`–`B6`), Deferral Registry, and `18/18` Original Pin Integrity (`Rule R2` / `R26`).
+2. **[`Revision.md`](Revision.md) (`REVISION-01`)** — *Editorial & Epistemic Charter:* Contrasts the First Edition (*"House Cards, Dealer Rules"*) with the Revised Edition (*"Our Cards, Our Rules — Not Applied to Others, in Respect"*), explaining why external measurements are recorded as bars (`PRIOR-CONSTRAINED` / `PRIOR-CONSISTENT`) while verdicts (`SUPPORTED`, `CONTRADICTED`, `INCONSISTENT`) are written strictly by in-house data (`OWN-TEST`) and derivations (`DERIVATION`).
+3. **[`PUBLIC_REFLECTION_ARGON_REVISION.md`](PUBLIC_REFLECTION_ARGON_REVISION.md) (`ARGON-PUBLIC-REFLECTION-02-REVISION`)** — *Revised Public Whitepaper Summary:*
    - **§1:** Two Editions, One Method + Explicit `D10` status box declaring the Onion-Layer / Breathing-Crevice lens (`A3-weak`) as **`PROPOSED`** with 3 pre-registered falsifiers, alongside the executed `E4` synodic null (`CONTRADICTED`) and Deccan ComCat $b = 1.2532$ (`SUPPORTED`).
-   - **§2:** The 19 `SUPPORTED` self-contained engineering & mathematical truths ($G_{\text{backbone}} = 16.80\text{ GPa}$, $\mathcal{S}=0$ at $\varepsilon = 2.96\times 10^{-4}$ vs. $Q^{-1}=1$ at $9.42\times 10^{-4}$, $34.45\text{ m}^2$ planar seam leverage, $989\text{ masons}$, Stokes $\delta_\nu$ scaling) and the 4 `CONTRADICTED` + 17 `INCONSISTENT` internal catches.
-   - **§3:** Respecting outside bars (`26 PRIOR-CONSTRAINED`, `17 PRIOR-CONSISTENT`) and the 6 `XTR-01` cross-domain bridges (`B1`–`B6`).
-   - **§4:** The 9 Pre-Registered Discovery Tests (`T-1` to `T-9`).
-3. **[`FINAL_MASTER_ANALYSIS_ARGON_REVISION.md`](FINAL_MASTER_ANALYSIS_ARGON_REVISION.md) (`ARGON-FINAL-MASTER-02-REVISION`)** — *Revised Master Technical Consolidation:*
+   - **§2:** The `SUPPORTED` self-contained engineering & mathematical truths ($G_{\text{backbone}} = 16.80\text{ GPa}$, $\mathcal{S}=0$ at $\varepsilon = 2.96\times 10^{-4}$ vs. $Q^{-1}=1$ at $9.42\times 10^{-4}$, $34.45\text{ m}^2$ planar seam leverage, $989\text{ masons}$, Stokes $\delta_\nu$ scaling) and the `CONTRADICTED` + `INCONSISTENT` internal catches (updated post-`FVT-01` in [`ADDENDUM_REPORT.md`](ADDENDUM_REPORT.md) to `20 SUPPORTED`, `5 CONTRADICTED`, `16 INCONSISTENT`).
+   - **§3:** Respecting outside bars (`PRIOR-CONSTRAINED` / `PRIOR-CONSISTENT`) and the 6 `XTR-01` cross-domain bridges (`B1`–`B6`).
+   - **§4:** The 9 Pre-Registered Discovery Tests (`T-1` to `T-9`, expanded to the 14-test `FVT-01` suite in [`ADDENDUM_REPORT.md`](ADDENDUM_REPORT.md)).
+4. **[`FINAL_MASTER_ANALYSIS_ARGON_REVISION.md`](FINAL_MASTER_ANALYSIS_ARGON_REVISION.md) (`ARGON-FINAL-MASTER-02-REVISION`)** — *Revised Master Technical Consolidation:*
    - **§1:** Executive Summary & 9-Layer Multi-Agent Architecture.
    - **§2:** The Onion-Layer & Breathing-Crevice Lens (`A3-weak` `PROPOSED`, `D10` declaration, Symmetric Ceiling Rule `R5`, 11-decade Stokes $\delta_\nu$ bridge, planar seam area leverage).
    - **§3:** Re-Evaluated Spectral Bands `Q`, `CE`, and `V` under `MSL-ADD-01`.
@@ -48,17 +54,17 @@ Located in the repository root (package copies in `revision/root_revision_docs/`
    - **§5:** Complete 95-Row Re-Evaluated Master Claims Ledger (`56 SPH-01 + 39 XTR-01`).
    - **§6:** Binding Superseded Values Registry (`SVR`) & All 13 Remediated `XTR-01` Defects (`D1`–`D13`).
    - **§7:** Pre-Registered Discovery Test Queue (`T-1`–`T-9`).
-4. **[`FINAL_MASTER_ANALYSIS_REVISION.md`](FINAL_MASTER_ANALYSIS_REVISION.md) (`FINAL-MASTER-ANALYSIS-02-REVISION`)** — *Revised Ground-Truth Master Analysis:* Updated axiom tables (`A1`–`A4`), engineering core, `XTR-01` ground-truth numbers, `D1`–`D13` remediations, and ground-truth ledger under `MSL-ADD-01`.
-5. **[`README.md`](README.md)** & **[`TOC.md`](TOC.md)** — Repository README and this Master Table of Contents (package copies: [`revision/README_REVISION.md`](revision/README_REVISION.md), [`revision/TOC_REVISION.md`](revision/TOC_REVISION.md)).
-6. **[`MANDATE_ADDENDUM_XTR.md`](MANDATE_ADDENDUM_XTR.md) (`MSL-ADD-01`)** · **[`WORK_OFFLOAD_DIRECTIVE_XTR01.md`](WORK_OFFLOAD_DIRECTIVE_XTR01.md)** · **[`ARGON_REEVALUATION_PROMPT.md`](ARGON_REEVALUATION_PROMPT.md)** · **[`CORPUS_INTEGRATION_REPORT_XTR01.md`](CORPUS_INTEGRATION_REPORT_XTR01.md)** — Governing specifications and integration audit for the Revised Edition.
+5. **[`FINAL_MASTER_ANALYSIS_REVISION.md`](FINAL_MASTER_ANALYSIS_REVISION.md) (`FINAL-MASTER-ANALYSIS-02-REVISION`)** — *Revised Ground-Truth Master Analysis:* Updated axiom tables (`A1`–`A4`), engineering core, `XTR-01` ground-truth numbers, `D1`–`D13` remediations, and ground-truth ledger under `MSL-ADD-01`.
+6. **[`README.md`](README.md)** & **[`TOC.md`](TOC.md)** — Repository README and this Master Table of Contents (package copies: [`revision/README_REVISION.md`](revision/README_REVISION.md), [`revision/TOC_REVISION.md`](revision/TOC_REVISION.md)).
+7. **[`MANDATE_ADDENDUM_XTR.md`](MANDATE_ADDENDUM_XTR.md) (`MSL-ADD-01`)** · **[`WORK_OFFLOAD_DIRECTIVE_XTR01.md`](WORK_OFFLOAD_DIRECTIVE_XTR01.md)** · **[`ARGON_REEVALUATION_PROMPT.md`](ARGON_REEVALUATION_PROMPT.md)** · **[`CORPUS_INTEGRATION_REPORT_XTR01.md`](CORPUS_INTEGRATION_REPORT_XTR01.md)** · **[`WORK_OFFLOAD_DIRECTIVE_FVT01.md`](WORK_OFFLOAD_DIRECTIVE_FVT01.md)** — Governing specifications and integration audit for the Revised Edition and `FVT-01` Addendum.
 
 ---
 
 ## Part II — Revised Edition Publication Package (`revision/`)
 
-The self-contained Revised Edition release directory [`revision/`](revision) (also shipped as `publishrevision.zip`) is organized into six subdirectories verified by [`revision/MANIFEST.sha256`](revision/MANIFEST.sha256):
+The self-contained Revised Edition release directory [`revision/`](revision) (also shipped as `publishrevision.zip`) includes [`revision/ADDENDUM_REPORT.md`](revision/ADDENDUM_REPORT.md) and is organized into six subdirectories verified by [`revision/MANIFEST.sha256`](revision/MANIFEST.sha256):
 
-1. **`revision/root_revision_docs/`** — All Revised Edition root whitepapers (`*_REVISION.md`), `Revision.md`, `MANDATE_ADDENDUM_XTR.md`, `WORK_OFFLOAD_DIRECTIVE_XTR01.md`, `ARGON_REEVALUATION_PROMPT.md`, and `CORPUS_INTEGRATION_REPORT_XTR01.md`.
+1. **`revision/root_revision_docs/`** — All Revised Edition root whitepapers (`*_REVISION.md`), `Revision.md`, `MANDATE_ADDENDUM_XTR.md`, `WORK_OFFLOAD_DIRECTIVE_XTR01.md`, `ARGON_REEVALUATION_PROMPT.md`, and `CORPUS_INTEGRATION_REPORT_XTR01.md` (with `ADDENDUM_REPORT.md` at `revision/ADDENDUM_REPORT.md`).
 2. **`revision/xtr01_canonical/`** — The canonical, defect-remediated (`D1`–`D13`) `XTR-01` deliverables merged from `AgentA/` and `AgentB/` per `CORPUS_INTEGRATION_REPORT_XTR01.md` §5.
 3. **`revision/argon_reevaluation/`** — The re-evaluation suite: `ARGON_REEVALUATION.md`, `claims_ledger_regraded.csv` (95 rows), `outputs/reevaluation_metrics.json`, `outputs/corpus_scan.json`, the change logs of the proofread (`outputs/proofread_changes.json`, `outputs/ledger_decisions_changes.json`), and the reproducible Python scripts (builders, generators, `proofread_fixes.py`, `apply_ledger_decisions.py`, `fix_readme_counts.py`).
 4. **`revision/reports_sph01_and_tracks/`** — Hardened `_v2.md` reports, Band `Q`/`CE`/`V` reports, `OpenCodeBP/`, `VPDR-01`, `BGCDR-01`, and `VERIFICATION_MATRIX_01`.
