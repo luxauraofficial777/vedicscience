@@ -1,0 +1,7 @@
+# SPH-01 pinned environment (R6) — executor: Big Pickle (OpenCode)
+# Recorded 2026-10-18; re-running analysis must use these versions.
+python==3.11.15
+numpy==1.26.4
+scipy==1.17.1
+matplotlib==3.11.2
+requests==2.33.0

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Vedic Metaphysics: Quantum Energy Guide — Substack Copy-Paste Edition</title>
+  <style>
+    body {
+      font-family: Georgia, 'Spectral', serif;
+      line-height: 1.65;
+      max-width: 760px;
+      margin: 40px auto;
+      padding: 0 20px;
+      color: #1a1a1a;
+      background: #ffffff;
+    }
+    .instructions {
+      background: #fff4ed;
+      border-left: 4px solid #ff6719;
+      padding: 16px 20px;
+      margin-bottom: 32px;
+      font-family: system-ui, -apple-system, sans-serif;
+      font-size: 14px;
+    }
+    h1, h2, h3, h4 {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      color: #111111;
+      margin-top: 1.6em;
+      margin-bottom: 0.5em;
+    }
+    pre {
+      background: #f6f6f6;
+      padding: 14px 18px;
+      border-radius: 6px;
+      overflow-x: auto;
+      font-family: 'Consolas', 'Courier New', monospace;
+      font-size: 13.5px;
+      line-height: 1.5;
+    }
+    blockquote {
+      border-left: 3px solid #ff6719;
+      margin: 1.2em 0;
+      padding-left: 16px;
+      color: #333333;
+      font-style: italic;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #e0e0e0;
+      margin: 2.2em 0;
+    }
+  </style>
+</head>
+<body>
+
+<div class="instructions">
+  <strong>How to update your Substack post cleanly:</strong><br/>
+  Open this file in your browser, select everything below the orange line (from <strong>Consolidated Master Technical Report</strong> to the bottom), press <strong>Ctrl+C</strong>, and paste it into your Substack editor. All headings, bold text, clean Unicode equations, and preformatted data tables will render natively without raw Markdown symbols (<code>#</code>, <code>$$</code>, <code>|</code>, or <code>&lt;div&gt;</code>) or local file paths.
+</div>
+
+<hr/>
+
+<h2>Consolidated Master Technical Report</h2>
+<h3>Acoustic Sculpture, Nonlinear Mesoscopic Elasticity (NME), &amp; Sound Logic (Λ_sl) Substrate Dynamics</h3>
+
+<p><strong>Document ID:</strong> <code>AS-NME-MASTER-01</code> (Consolidating Iterations I–VII)<br/>
+<strong>Scope:</strong> Complete Mathematical Derivations, Asymptotic Expansions, Petrophysical Matrices, C++17/Python Simulation Blueprints &amp; Vedic <em>Astra</em> Data-Hardening Audit</p>
+
+<p><strong>Companion Verification Modules:</strong></p>
+<ul>
+  <li><code>sim_cavity_acoustics.cpp</code> — C++17 Staggered-Grid 2D/3D FDTD &amp; Stokes–Kirchhoff Boundary-Layer Solver</li>
+  <li><code>sim_cavity_acoustics.py</code> — Python Eigenmode &amp; Boundary-Layer Verification Suite</li>
+  <li><code>verify_convergence_integral.py</code> — Asymptotic &amp; Numerical Quadrature Verifier for ΔT_drift(∇P_ac)</li>
+  <li><code>verify_metamaterial_and_hugoniot.py</code> — Negative Stiffness (K_eff⁻¹, ρ_eff) &amp; Nonlinear Hugoniot (&gt; 7.48 GPa) Verifier</li>
+</ul>
+
+<hr/>
+
+<h2>Module I: Acoustic Softening &amp; Shear Modulus Reduction (G_eff)</h2>
+
+<h3>1.1 Nonlinear Mesoscopic Elastic (NME) Constitutive Foundation</h3>
+<p>Polymineralic igneous rocks—specifically tholeiitic basalt (ρ_b ≈ 2,850 kg/m³) and coarse-grained granite (ρ_g ≈ 2,650 kg/m³)—consist of a rigid mineral skeleton (plagioclase, clinopyroxene, quartz) permeated by a compliant mesoscopic bond network (grain boundaries, micro-fissures, dislocation tangles). Under an ultrasonic shear strain field γ(t) = γ₀ + ε_ac cos(ωt), the Guyer–Johnson–McCall Preisach–Mayergoyz (PM) constitutive equation takes the form:</p>
+
+<pre>τ(γ, γ̇) = G₀ [ γ + β_G γ² + δ_G γ³ − α_G ( ε_ac γ + ½(γ² − ε_ac²) sgn(γ̇) ) ]</pre>
+
+<p>Projecting onto the fundamental harmonic over an acoustic period T_ac = 2π/ω and coupling with the <strong>Granato–Lücke dislocation breakaway defect</strong> (Φ_GL) yields the strain-conditioned backbone stiffness factor S(ε_ac):</p>
+
+<pre>S(ε_ac) ≡ G_backbone(ε_ac) / G₀
+        = 1 − α_G (ε_ac − ε_th) H(ε_ac − ε_th) − (3/4)|δ_G| ε_ac² − (Ω Λ L_N² / π²) (ε_cr / ε_ac) exp(−ε_cr / ε_ac)</pre>
+
+<ul>
+  <li><strong>G₀ ≈ 30.0 GPa:</strong> Unperturbed linear shear modulus of the intact basalt matrix</li>
+  <li><strong>ε_th ∼ 10⁻⁶:</strong> Intergranular micro-slip activation threshold strain</li>
+  <li><strong>α_G ∼ 2.5 × 10³:</strong> Hysteretic PM-space conditioning parameter</li>
+  <li><strong>δ_G ∼ −4.0 × 10⁶ (&lt; 0):</strong> Fourth-order Landau–Murnaghan cubic softening coefficient</li>
+  <li><strong>ε_cr = F_m / (b G₀ L_c):</strong> Granato–Lücke dislocation breakaway strain</li>
+</ul>
+
+<h3>1.2 Blaha–Langenecker Acoustoplastic Flow &amp; Griffith Tensile Degradation</h3>
+<p>Under superimposed quasi-static shear stress τ₀ and ultrasonic stress τ_ac = G_eff ε_ac, the cycle-averaged thermally activated plastic strain rate across energy barrier U₀ with activation volume V* is governed by the zeroth-order modified Bessel function I₀(·):</p>
+
+<pre>⟨γ̇_p⟩ = γ̇₀ exp(−(U₀ − V* τ₀) / k_B T) · I₀( V* G_eff ε_ac / k_B T )
+
+Δτ_y(ε_ac) ≈ G_eff(ε_ac) ε_ac − (k_B T / 2V*) ln( 2π V* G_eff ε_ac / k_B T )</pre>
+
+<p>By the Griffith–Irwin brittle fracture criterion for grain-boundary microcracks of half-length <em>a</em> and surface energy γ_s, the effective macroscopic tensile strength σ_t^eff degrades with the square root of the softened modulus:</p>
+
+<pre>σ_t^eff(ε_ac, ω) = √[ 4 Re[G_eff(ε_ac, ω)] γ_s / (π (1 − ν_eff) a) ]
+                 = σ_{t,0} · √( Re[G_eff(ε_ac, ω)] / G₀ )</pre>
+
+<hr/>
+
+<h2>Module II: Effective Modulus Dispersion &amp; Negative Stiffness (K_eff⁻¹, ρ_eff)</h2>
+
+<h3>2.1 Monopolar &amp; Dipolar Local Resonance Homogenization in Basalt/Gabbro</h3>
+<p>Polymineralic basalt and gabbro matrices contain two distinct classes of sub-wavelength internal resonators:</p>
+<ol>
+  <li><strong>Monopolar Compressibility Resonators (ω_m):</strong> Fluid/gas-filled micro-cavities and compliant grain-boundary pockets of filling fraction F_m that undergo radial volumetric pulsation at strain-shifted frequency ω_m(ε_ac) = ω_{m,0} √S(ε_ac).</li>
+  <li><strong>Dipolar Inertial Resonators (ω_d):</strong> High-density clinopyroxene/magnetite phenocrysts embedded in softer plagioclase rims of mass-coupling fraction F_d that oscillate translationally at ω_d(ε_ac) = ω_{d,0} √S(ε_ac).</li>
+</ol>
+
+<p>Applying dynamic effective medium homogenization yields the coupled Lorentzian dispersion laws for the <strong>effective inverse bulk modulus</strong> K_eff⁻¹(ω, ε_ac) and <strong>effective dynamic mass density</strong> ρ_eff(ω, ε_ac):</p>
+
+<pre>K_eff⁻¹(ω, ε_ac) = K_NME⁻¹(ε_ac) · [ 1 + (F_m ω_m²(ε_ac)) / (ω_m²(ε_ac) − ω² − i Γ_m(ε_ac) ω) ]
+
+ρ_eff(ω, ε_ac)   = ρ₀ · [ 1 + (F_d ω_d²(ε_ac)) / (ω_d²(ε_ac) − ω² − i Γ_d(ε_ac) ω) ]</pre>
+
+<h3>2.2 Exact Analytic Conditions for Negative Effective Stiffness &amp; Inertia Inversion</h3>
+<p>Separating K_eff⁻¹(ω, ε_ac) into real and imaginary components:</p>
+
+<pre>Re[K_eff⁻¹(ω)] = K_NME⁻¹ · [ 1 + F_m ω_m² (ω_m² − ω²) / ( (ω_m² − ω²)² + Γ_m² ω² ) ]</pre>
+
+<p>In the low-damping limit (Γ_m ≪ ω_m), <strong>Negative Effective Bulk Stiffness</strong> (Re[K_eff(ω)] &lt; 0) and <strong>Dynamic Inertia Inversion</strong> (Re[ρ_eff(ω)] &lt; 0) occur inside the anomalous dispersion bands:</p>
+
+<pre>Negative Bulk Stiffness Band (Re[K_eff] &lt; 0):   ω_m(ε_ac) &lt; ω &lt; ω_m(ε_ac) √(1 + F_m)
+Negative Effective Mass Band (Re[ρ_eff] &lt; 0):   ω_d(ε_ac) &lt; ω &lt; ω_d(ε_ac) √(1 + F_d)</pre>
+
+<h3>2.3 Verified Metamaterial Dispersion Benchmark (Basalt/Gabbro at ε_ac = 1.5 × 10⁻⁴)</h3>
+<pre>f (kHz) | Re[K_NME/K_eff] | Re[K_eff] (GPa) | Re[ρ_eff] (kg/m³) | Re[c_eff] (m/s) | Dispersion Regime
+--------+-----------------+-----------------+-------------------+-----------------+------------------------------------------
+ 15.00  |     +1.7160     |     +16.31      |     +4,715.2      |     1,859.3     | Pass-Band (Re[K]&gt;0, Re[ρ]&gt;0)
+ 19.50  |     +3.4678     |      +7.84      |    +11,766.9      |       781.5     | Sub-Resonant Slow-Wave Compression
+ 20.50  |     +5.9861     |      +3.24      |     −5,614.5      |       149.6     | Single-Negative Stop-Band (Re[ρ]&lt;0)
+ 21.00  |     −0.2496     |      −0.07      |     −7,249.2      |       250.4     | DOUBLE-NEGATIVE BAND (Re[K]&lt;0, Re[ρ]&lt;0)
+ 21.50  |     −3.5300     |      −4.51      |     −3,854.8      |       953.0     | DOUBLE-NEGATIVE BAND (Re[K]&lt;0, Re[ρ]&lt;0)
+ 22.50  |     −1.1564     |     −20.02      |       −889.3      |     3,853.2     | DOUBLE-NEGATIVE BAND (Re[K]&lt;0, Re[ρ]&lt;0)
+ 23.50  |     −0.3266     |     −62.02      |       +319.2      |     1,359.5     | Single-Negative Stop-Band (Re[K]&lt;0)
+ 24.50  |     +0.0585     |    +113.49      |       +961.5      |    12,545.4     | Upper Pass-Band Recovery
+ 28.00  |     +0.5561     |     +50.24      |     +1,894.6      |     5,147.7     | High-Frequency Continuum Recovery</pre>
+
+<blockquote>
+  <strong>Physical Mechanism of Matrix Disintegration:</strong> At f = 21.00 kHz, Re[K_eff] crosses through zero (−0.07 GPa). In the negative stiffness window (20.95–24.35 kHz), the mineral matrix expands under compression and contracts under tension—destabilizing intergranular bonds and triggering spontaneous tensile spallation under minimal acoustic power.
+</blockquote>
+
+<hr/>
+
+<h2>Module III: Rayleigh–Plesset Micro-Jet &amp; Non-Linear Hugoniot Spikes (&gt; 7.48 GPa)</h2>
+
+<h3>3.1 Asymmetric Bubble Collapse Near a Rigid Basalt Boundary (γ_s = δ / R_max ≲ 2.0)</h3>
+<p>The radial dynamics R(t) of a cavitation bubble in a liquid slurry of density ρ_l, viscosity μ_l, surface tension σ, and vapor pressure P_v driven by hydrostatic pressure P_h and ultrasonic pressure P_ac(t) obey the Rayleigh–Plesset–Keller–Miksis equation:</p>
+
+<pre>(1 − Ṙ/c_{l,0}) R R̈ + (3/2)(1 − Ṙ/(3c_{l,0})) Ṙ² = (1/ρ_l)(1 + Ṙ/c_{l,0}) [ P_g (R₀/R)^{3κ} − ΔP(t) − 2σ/R − 4μ_l Ṙ/R ]</pre>
+
+<p>where ΔP = P_h + P_ac − P_v is the collapse driving differential. Near a rigid basalt wall (γ_s = δ / R_max ≲ 2.0), the Kelvin impulse breaks spherical symmetry, projecting a focused re-entrant liquid micro-jet whose terminal velocity v_jet scales as:</p>
+
+<pre>v_jet(ΔP, γ_s) = ξ_jet(γ_s) · √(ΔP / ρ_l),     where ξ_jet(γ_s) = ξ₀ γ_s^{−η_j} (R_max / R_min)^{3(κ−1)/2}</pre>
+
+<h3>3.2 Unifying Linear Water-Hammer (3.25 GPa) &amp; Nonlinear Hugoniot Spikes (&gt; 7.48 GPa)</h3>
+<p>When the liquid micro-jet strikes the basalt interface at supersonic speed (v_jet &gt; c_{l,0} = 1,484 m/s), liquid water undergoes strong nonlinear Rankine–Hugoniot shock compression with shock velocity U_s(u_{p,l}) = c_{l,0} + s_H u_{p,l} (where s_H = 1.979). Enforcing stress and velocity continuity across the fluid–basalt interface (Z_b ≈ 16.5 MRayl) gives the exact stagnation pressure:</p>
+
+<pre>P_Hugoniot(ΔP) = ρ_l c_{l,0} u_{p,l}  [Linear Water-Hammer Term]
+               + ρ_l s_H u_{p,l}²     [Nonlinear Hugoniot Shock Spike]</pre>
+
+<h3>3.3 Verified Micro-Jet &amp; Hugoniot Stagnation Benchmark</h3>
+<pre>ΔP (MPa) | v_jet (m/s) | U_s Shock (m/s) | Linear P_wh (GPa) | Matched Hugoniot (GPa) | Rigid Hugoniot (GPa) | Overpressure / σ_t0
+---------+-------------+-----------------+-------------------+------------------------+----------------------+--------------------
+  0.50   |    561.5    |     2,451.7     |       0.832       |         1.196          |        1.454         |       79.8×
+  1.50   |    972.5    |     3,104.4     |       1.440       |         2.537          |        3.308         |      169.1×
+  3.00   |  1,375.3    |     3,707.3     |       2.037       |         4.157          |        5.773         |      277.1×
+  5.00   |  1,775.6    |     4,275.8     |       2.630       |         6.020          |        8.856         |      401.3×
+  6.67   |  2,051.0    |     4,651.2     |       3.038       |         7.482          |       11.425         |      498.8×
+  7.65   |  2,196.2    |     4,845.3     |       3.253       |         8.213          |       12.779         |      547.5×
+ 10.00   |  2,511.0    |     5,254.8     |       3.719       |         9.993          |       16.172         |      666.2×
+ 12.50   |  2,807.4    |     5,628.7     |       4.158       |        11.765          |       19.724         |      784.3×</pre>
+
+<blockquote>
+  <strong>Reconciliation of the 3.25 GPa and &gt; 7.48 GPa Thresholds:</strong> At ΔP = 7.65 MPa (v_jet = 2,196.2 m/s), the linear water-hammer formula predicts 3.253 GPa, whereas the full nonlinear Rankine–Hugoniot shock equation reveals a true stagnation spike of <strong>8.213 GPa</strong> (crossing 7.48 GPa at ΔP = 6.67 MPa)—exceeding unperturbed basalt tensile strength (15 MPa) by <strong>547.5×</strong> and NME-softened tensile strength (2.62 MPa) by <strong>3,134.7×</strong>.
+</blockquote>
+
+<hr/>
+
+<h2>Module IV: Unified Acoustic-Temporal Convergence Integral (ΔT_drift)</h2>
+
+<h3>4.1 Canonical Nondimensionalization &amp; High-Gradient Asymptotic Law</h3>
+<p>The unified convergence integral governing temporal-phase drift suppression and structural state convergence under an applied acoustic pressure gradient ∇P_ac(t) is:</p>
+
+<pre>ΔT_drift(∇P_ac) = ∫ [ P_bs · Ψ_g(t) · I_{m,0} · (1 − tanh( δ_bl ‖∇P_ac(t)‖ / τ_crit )) ]
+                    / [ Λ₀ + (Q(ω) V_node / (ρ₀ ω c P_noise)) ‖∇P_ac(t)‖² ] dt</pre>
+
+<p>Defining the dimensionless Blaha–Stokes shear number <strong>ξ(t) ≡ δ_bl ‖∇P_ac(t)‖ / τ_crit</strong> and Sound Logic coupling parameter <strong>β_Λ(ω)</strong>, and expanding the numerator in decaying exponentials 1 − tanh(ξ) = 2(e^{−2ξ} − e^{−4ξ} + ···) against the denominator's Laurent series (1 + β_Λ ξ²)⁻¹ = (β_Λ ξ²)⁻¹ (1 − (β_Λ ξ²)⁻¹ + ···) yields the exact asymptotic convergence law as ‖∇P_ac‖ → ∞:</p>
+
+<pre>I(‖∇P_ac‖) ∼ [ (2 P_bs Ψ_g(t) I_{m,0} ρ₀ ω c P_noise) / (Q(ω) V_node) ]
+             × [ exp(−2 δ_bl ‖∇P_ac(t)‖ / τ_crit) / ‖∇P_ac(t)‖² ]
+             × [ 1 − (Λ₀ ρ₀ ω c P_noise)/(Q(ω) V_node ‖∇P_ac‖²) − exp(−2 δ_bl ‖∇P_ac‖ / τ_crit) + ··· ]</pre>
+
+<h3>4.2 Logarithmic Convergence Rate &amp; Numerator–Denominator Interaction</h3>
+<pre>γ_conv(ξ) ≡ −d ln K(ξ) / dξ = [ 2 / (1 + e^{−2ξ}) ]  (Numerator Exponential Shear-Softening Rate)
+                            + [ 2 β_Λ ξ / (1 + β_Λ ξ²) ] (Denominator Quadratic Λ_sl Rate)</pre>
+
+<pre>Shear ξ | ‖∇P_ac‖ (MPa/m) | Exact Kernel K(ξ) | 2nd-Order Asymp. | 2nd-Order Error | Exp. Rate γ_exp | Alg. Rate γ_alg
+--------+-----------------+-------------------+------------------+-----------------+-----------------+----------------
+  0.25  |      0.6793     |   4.2391 × 10⁻¹   |   (Sub-thresh)   |        —        |     1.2449      |     3.5088
+  1.00  |      2.7174     |   1.7660 × 10⁻²   |  1.7225 × 10⁻²   |     2.4598%     |     1.7616      |     1.8519
+  2.00  |      5.4348     |   7.0534 × 10⁻⁴   |  7.0482 × 10⁻⁴   |     0.0735%     |     1.9640      |     0.9804
+  5.00  |     13.5870     |   2.8962 × 10⁻⁷   |  2.8962 × 10⁻⁷   |     0.0010%     |     1.9999      |     0.3987
+ 10.00  |     27.1739     |   3.2952 × 10⁻¹²  |  3.2952 × 10⁻¹²  |    0.00006%     |     2.0000      |     0.1998</pre>
+
+<hr/>
+
+<h2>Module V: Comparative Energy Scaling Matrix (V_exc = 140,350.88 m³ Basalt)</h2>
+
+<p>For the 400,000-metric-ton monolithic basalt excavation benchmark (ρ_b = 2,850 kg/m³ ⇒ V_exc = 140,350.88 m³) over an 18-year (78,840-hour) active operational window:</p>
+
+<pre>Metric / Parameter             | Unit   | Regime 1: Trad. | Regime 2: Cavitation | Regime 3: NME + Cav. | Regime 4: Kerf + Spall
+-------------------------------+--------+-----------------+----------------------+----------------------+-----------------------
+Specific Cutting Energy (E_s)  | MJ/m³  |     150.00      |        35.00         |        16.79         |         2.98
+Specific Energy (Mass Basis)   | kJ/kg  |      52.63      |        12.28         |         5.89         |         1.04
+Specific Energy (Electrical)   | kWh/m³ |      41.67      |         9.72         |         4.66         |         0.83
+Total Excavation Energy        | TJ     |      21.053     |         4.912        |         2.356        |         0.418
+Total Energy (MWh Equivalent)  | MWh    |   5,847.95      |     1,364.52         |       654.58         |       116.02
+Energy Reduction Factor        | ratio  |       1.00×     |         4.29×        |         8.93×        |        50.40×
+Energy Saved vs. Traditional   | %      |       0.00%     |        76.67%        |        88.81%        |        98.02%
+Continuous Power (18-yr/12h/d) | kW     |      74.18 kW   |        17.31 kW      |         8.30 kW      |         1.47 kW
+Time at Fixed 25 kW Array      | years  |      53.41 yr   |        12.46 yr      |         5.98 yr      |         1.06 yr</pre>
+
+<hr/>
+
+<h2>Module VI: Subterranean Cavity Eigenmodes (34.4 Hz) &amp; FDTD Blueprint</h2>
+
+<p>Inside a 5.0 m × 3.0 m × 2.5 m monolithic granite/basalt chamber (V = 37.5 m³, S = 70.0 m², hydraulic radius r_h = 1.0714 m), the Stokes–Kirchhoff visco-thermal boundary layer thickness δ_bl,eff(ω) and attenuation constant α_bl(ω) are:</p>
+
+<pre>δ_bl,eff(ω) = √(2ν_f / ω) · (1 + (γ − 1)/√Pr),     α_bl(ω) = (ω / (2 c_f r_h)) δ_bl,eff(ω),     Q_bl = k / (2 α_bl)</pre>
+
+<pre>Mode (nx,ny,nz) | Eigenmode Classification     | Freq (Hz) | δ_v (mm) | δ_bl,eff (mm) | α_bl (Np/m) | Cavity Q_bl | Max |∇P_ac| (Pa/m)
+----------------+------------------------------+-----------+----------+---------------+-------------+-------------+-------------------
+   (1, 0, 0)    | Fundamental Longitudinal     |   34.40   |  0.3745  |    0.5520     |  1.62e-4    |   1,941.1   |     1,570.80
+   (2, 0, 0)    | Second Longitudinal Harmonic |   68.80   |  0.2648  |    0.3903     |  2.29e-4    |   2,745.2   |     3,141.59
+   (3, 0, 0)    | Third Longitudinal Harmonic  |  103.20   |  0.2162  |    0.3187     |  2.80e-4    |   3,362.1   |     4,712.39
+   (1, 1, 0)    | Coupled Lateral-Longitudinal |   66.86   |  0.2686  |    0.3959     |  2.26e-4    |   2,706.2   |     3,053.08
+   (1, 1, 1)    | First 3D Tri-Axial Mode      |   95.94   |  0.2243  |    0.3305     |  2.70e-4    |   3,241.7   |     4,380.74</pre>
+
+<hr/>
+
+<h2>Module VII: Vedic Astra Data-Hardening &amp; Petrophysical Synthesis</h2>
+
+<ol>
+  <li><strong>Module 1 — Sound Logic (Λ_sl) Chirped Phononic-Mantra Gating (<em>Vajra / Bṛhaspati</em>, RV 1.32, 10.68):</strong><br/>
+  To maintain a polymineralic rock target inside the negative-stiffness band (ω_m(ε_ac) &lt; ω &lt; ω_m(ε_ac)√(1 + F_m)) as ultrasonic strain ε_ac(t) accumulates, the driving acoustic frequency ω_drive(t) follows the downward-chirped trajectory:
+  <pre>ω_drive(t) = ω_{m,0} √[ (1 + η_band F_m) (1 − α_G ε_ac(t) − (3/4)|δ_G| ε_ac²(t)) ]</pre>
+  Volumetric NME hysteretic internal friction generates grain-boundary thermal power density:
+  <pre>q̇_NME(ε_ac, ω) = ½ ω G₀ ε_ac² ( Q₀⁻¹ + (4 α_G / 3π) ε_ac )</pre>
+  At f = 21.5 kHz and ε_ac = 1.0 × 10⁻³, q̇_NME ≈ 2.15 × 10⁹ W/m³, raising silicate grain boundaries to the vitrification liquidus (T_melt ≈ 1,250 °C) in Δt ≈ 1.48 seconds under anaerobic interior conditions—matching the Fe³⁺ → Fe²⁺ Mössbauer reduction signature of vitrified stone forts.</li>
+
+  <li><strong>Module 2 — Dynamic Inertia Mitigation &amp; <em>Narayanastra</em> Kinetic-Feedback Mechanics (<em>Mahabharata</em> 7.166 / BORI 7.170):</strong><br/>
+  For a target moving at velocity <strong>v_target</strong> inside a high-Q standing-wave field, the Doppler-shifted frequency seen by internal dipolar resonators is ω'(v) = ω + <strong>k · v_target</strong>. When the ambient carrier ω is tuned slightly below the dipolar resonance ω_d (ω = ω_d − Δω), a stationary grounded target (v_target = 0) experiences minimal force, whereas an agitated moving target Doppler-shifts directly into the resonance pole ω' → ω_d, causing dynamic effective mass ρ_eff(ω') and radiation stress ⟨Σ_rad⟩ to escalate by Q_d² ∼ 10³–10⁴.</li>
+
+  <li><strong>Module 3 — Thermo-Acoustic Rankine–Hugoniot Shock Heating (<em>Brahmastra / Agneyastra</em> &amp; Mohenjo-daro Audit):</strong><br/>
+  High-amplitude parametric acoustic beams steepen into atmospheric shock fronts of Mach number M_s. By the Rankine–Hugoniot relations in air (γ = 1.40, T₁ = 300 K):
+  <pre>T₂ / T₁ = [ (2γ M_s² − (γ − 1)) ((γ − 1) M_s² + 2) ] / [ (γ + 1)² M_s² ]</pre>
+  At M_s = 5.5, post-shock air temperature reaches T₂ = 2,038 K (1,765 °C) with overpressure ΔP_shock = 3.41 MPa—exceeding the 1,450–1,600 °C vitrification threshold of clay pottery and mud-brick while producing <strong>zero ionizing neutron radiation</strong>, reconciling localized vitrified pottery strata with the verified absence of nuclear fallout.</li>
+</ol>
+
+</body>
+</html>

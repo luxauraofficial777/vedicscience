@@ -1,0 +1,855 @@
+{
+  "package_id": "LUXAURA-PUBLISH-SPH01-FINAL",
+  "generated_at_utc": "2026-10-18T08:41:49.263927+00:00",
+  "total_files": 141,
+  "total_bytes": 6630259,
+  "all_hashes_verified": true,
+  "files": [
+    {
+      "rel_publish_path": "ASTRA_COMPARATIVE_BRIEF.md",
+      "source_path": "ASTRA_COMPARATIVE_BRIEF.md",
+      "size_bytes": 18731,
+      "sha256": "a4faab138234154ad35019857f6ae93cda815fab5986ebe31be40de9708f73a6"
+    },
+    {
+      "rel_publish_path": "FINAL_MASTER_ANALYSIS.md",
+      "source_path": "FINAL_MASTER_ANALYSIS.md",
+      "size_bytes": 34611,
+      "sha256": "d93f3197dd5afc7f92a971fab9f62022c657558a3354cd1412a30cb93ffb93f9"
+    },
+    {
+      "rel_publish_path": "FINAL_MASTER_ANALYSIS_ARGON.md",
+      "source_path": "FINAL_MASTER_ANALYSIS_ARGON.md",
+      "size_bytes": 52620,
+      "sha256": "2cb4bf3cfeed2216266ef742aa0ba3b64f78dcc5b086541c03cfe5abbb1d1bce"
+    },
+    {
+      "rel_publish_path": "HARDENING_REPORT.md",
+      "source_path": "HARDENING_REPORT.md",
+      "size_bytes": 15166,
+      "sha256": "4085ec6b350b547009efb05d99dc65c46f2138b019be2c310d531125acc55c9b"
+    },
+    {
+      "rel_publish_path": "IDEAS_RESEARCH_BRIEF.md",
+      "source_path": "IDEAS_RESEARCH_BRIEF.md",
+      "size_bytes": 20256,
+      "sha256": "691a6a8208052fb8328749ce5310583f2e2f8ef8f317747d62d37e2d549784e8"
+    },
+    {
+      "rel_publish_path": "LICENSE",
+      "source_path": "LICENSE",
+      "size_bytes": 15400,
+      "sha256": "44ade094c0ec67f9657d6a96932bc8dc71728d34d9354cbfe52eba6a327c4a77"
+    },
+    {
+      "rel_publish_path": "PUBLIC_REFLECTION_ARGON.md",
+      "source_path": "PUBLIC_REFLECTION_ARGON.md",
+      "size_bytes": 16137,
+      "sha256": "985e4392da5cca8cd9299640090c7868e2bae12ed903ce516e8f59c16a9252ce"
+    },
+    {
+      "rel_publish_path": "README.md",
+      "source_path": "publish/README.md (generated)",
+      "size_bytes": 5518,
+      "sha256": "4c7b1e805b85f22c693169f76e41a1a3c8e6bb90a2a0115bc3d8b71954796265"
+    },
+    {
+      "rel_publish_path": "README_v1_root.md",
+      "source_path": "README.md",
+      "size_bytes": 11266,
+      "sha256": "ba1b00209ac2629e4a99efb97cce53edd73b99d32e0b737293eba01a3c4e0b1f"
+    },
+    {
+      "rel_publish_path": "THEOREM_DOCKET.md",
+      "source_path": "THEOREM_DOCKET.md",
+      "size_bytes": 21712,
+      "sha256": "eb5f8fe2a91f79668f457cf23f9e06973ea3d9d43550cd958f070d5d9b3c6c57"
+    },
+    {
+      "rel_publish_path": "TOC.md",
+      "source_path": "TOC.md",
+      "size_bytes": 14088,
+      "sha256": "df2fabc28be5ecae6fefa7de50bf564f126f30a776e62a56eeaf29b770899ec3"
+    },
+    {
+      "rel_publish_path": "WORK_OFFLOAD_DIRECTIVE_SPH01.md",
+      "source_path": "WORK_OFFLOAD_DIRECTIVE_SPH01.md",
+      "size_bytes": 23317,
+      "sha256": "efef5543ade9b6b3e758114b10fc9318ba0c75d67dc6e9a731bc089fd2db3c25"
+    },
+    {
+      "rel_publish_path": "data_and_manifests/BIO_MANIFEST.sha256",
+      "source_path": "BIO_GENE_CELLULAR_DEEP_RESEARCH/outputs/MANIFEST.sha256",
+      "size_bytes": 369,
+      "sha256": "6da3f6881061fbccdb31b38550440eb0f3f57d48ee761eba7b791fb9d1bfaaab"
+    },
+    {
+      "rel_publish_path": "data_and_manifests/BIO_bio_gradient_ledger.csv",
+      "source_path": "BIO_GENE_CELLULAR_DEEP_RESEARCH/outputs/bio_gradient_ledger.csv",
+      "size_bytes": 11842,
+      "sha256": "d12ceb443166e0d61c8657f3b1f8fc030c9e669a7562a9834d49c05804732b12"
+    },
+    {
+      "rel_publish_path": "data_and_manifests/BIO_bio_summary.json",
+      "source_path": "BIO_GENE_CELLULAR_DEEP_RESEARCH/outputs/bio_summary.json",
+      "size_bytes": 371,
+      "sha256": "04926245a505a171bd389c4ffc031da054e33c1b8f2ed5518dd41f624524dee4"
+    },
+    {
+      "rel_publish_path": "data_and_manifests/BIO_citations_bio.jsonl",
+      "source_path": "BIO_GENE_CELLULAR_DEEP_RESEARCH/citations_bio.jsonl",
+      "size_bytes": 9148,
+      "sha256": "379b206bc177277949ee89ea6b4faf97e56e5734f4a1e08d1d696ec20470eac4"
+    },
+    {
+      "rel_publish_path": "data_and_manifests/BIO_claims_dataset_bio.csv",
+      "source_path": "BIO_GENE_CELLULAR_DEEP_RESEARCH/claims_dataset_bio.csv",
+      "size_bytes": 11384,
+      "sha256": "2e4bcaa1a0f726c1f5173ecb1704f1b7afaecd443097f7916157b17b46b1d92e"
+    },
+    {
+      "rel_publish_path": "data_and_manifests/OpenCodeBP_CORPUS_MANIFEST.sha256",
+      "source_path": "OpenCodeBP/outputs/CORPUS_MANIFEST.sha256",
+      "size_bytes": 4552,
+      "sha256": "209fcd2812f4685bfedc2eb4864e3b8f9e416bdee0e2a692f6ddcd293550e0e4"
+    },
+    {
+      "rel_publish_path": "data_and_manifests/OpenCodeBP_claims_part1.csv",
+      "source_path": "OpenCodeBP/outputs/claims_part1.csv",
+      "size_bytes": 26987,
+      "sha256": "c640d46f42dfe12e748eb9449ef490eb4d4ab697f52e69dafb68f354b705fb94"
+    },
+    {
+      "rel_publish_path": "data_and_manifests/OpenCodeBP_claims_part2.csv",
+      "source_path": "OpenCodeBP/outputs/claims_part2.csv",
+      "size_bytes": 49694,
+      "sha256": "6c4e0a4dc6f0ed5ecfaf5b69c17f7bd1a0dfd073524083c344fd251025c307d9"
+    },
+    {
+      "rel_publish_path": "data_and_manifests/OpenCodeBP_claims_part3.csv",
+      "source_path": "OpenCodeBP/outputs/claims_part3.csv",
+      "size_bytes": 52763,
+      "sha256": "7513ac7780ead79329e808a0c780494da88c8fee9559096077dc35874a2760b7"
+    },
+    {
+      "rel_publish_path": "data_and_manifests/OpenCodeBP_onion_crevice_derived.json",
+      "source_path": "OpenCodeBP/outputs/onion_crevice_derived.json",
+      "size_bytes": 3752,
+      "sha256": "eb73a3cc3a66ae31698553e0a9029c0766ec6c60b040b4bf9fdfb43fbb6ff1b9"
+    },
+    {
+      "rel_publish_path": "data_and_manifests/SPH01_MANIFEST.sha256",
+      "source_path": "hardening_SPH01/outputs/MANIFEST.sha256",
+      "size_bytes": 2998,
+      "sha256": "b6ea885dd068fcfc0f65077a6bacffa5c0d3fac6f7244e6101b54f983edd81e6"
+    },
+    {
+      "rel_publish_path": "data_and_manifests/VEDIC_CONCORDANCE.csv",
+      "source_path": "hardening_SPH01/VEDIC_CONCORDANCE.csv",
+      "size_bytes": 5914,
+      "sha256": "24af98ee9edb00efdf8ba136303546dec31bd27c572ca29cda6227ff2d9e7707"
+    },
+    {
+      "rel_publish_path": "data_and_manifests/VM01_MANIFEST.sha256",
+      "source_path": "VERIFICATION_MATRIX_01/outputs/MANIFEST.sha256",
+      "size_bytes": 1473,
+      "sha256": "f3fce6594dc4854a9b63e80632e769f9b0594c76a1c41eb4b7dbda0971d46b42"
+    },
+    {
+      "rel_publish_path": "data_and_manifests/VM01_eigenmodes.json",
+      "source_path": "VERIFICATION_MATRIX_01/eigenmodes.json",
+      "size_bytes": 23185,
+      "sha256": "018350848a7a249ef900e85dd598dd3348444a37c8ee7dfc16d899edf2e4e075"
+    },
+    {
+      "rel_publish_path": "data_and_manifests/VM01_parallels_ledger.csv",
+      "source_path": "VERIFICATION_MATRIX_01/parallels_ledger.csv",
+      "size_bytes": 14938,
+      "sha256": "640e8393b9f95b3d5da6e32208f9cb28f4b8dfd406717916106bf0c3ff7c9b34"
+    },
+    {
+      "rel_publish_path": "data_and_manifests/VM01_physical_eigenmodes.csv",
+      "source_path": "VERIFICATION_MATRIX_01/physical_eigenmodes.csv",
+      "size_bytes": 3382,
+      "sha256": "15c1d23181ef2f479425e7d88189fcf36d69dfdb822970f76304a6013a833612"
+    },
+    {
+      "rel_publish_path": "data_and_manifests/VM01_spectrum_coincidences.csv",
+      "source_path": "VERIFICATION_MATRIX_01/spectrum_coincidences.csv",
+      "size_bytes": 1406,
+      "sha256": "553032436621916a1c25b5698c19ba088e3be2d41e378ecdd51a9a422711b5fb"
+    },
+    {
+      "rel_publish_path": "data_and_manifests/VM01_summary.json",
+      "source_path": "VERIFICATION_MATRIX_01/outputs/summary.json",
+      "size_bytes": 4854,
+      "sha256": "9081fdfabb2017058f67b5bac34f3eabf8f766006ff070a7674cb2f60aabefbc"
+    },
+    {
+      "rel_publish_path": "data_and_manifests/VM01_verification_matrix.csv",
+      "source_path": "VERIFICATION_MATRIX_01/verification_matrix.csv",
+      "size_bytes": 9354,
+      "sha256": "567f5212ad3d2c180298cbf7bd3ff605b7e8c6c5e3cd4fea15fb349c22170e82"
+    },
+    {
+      "rel_publish_path": "data_and_manifests/VPDR_MANIFEST.sha256",
+      "source_path": "VEDIC_PLASMA_DEEP_RESEARCH/outputs/MANIFEST.sha256",
+      "size_bytes": 473,
+      "sha256": "1189e949b7b444e32cd8a2b5f1036529190b598d7e4686eb729e5d51a3d85829"
+    },
+    {
+      "rel_publish_path": "data_and_manifests/VPDR_citations_compiled.jsonl",
+      "source_path": "VEDIC_PLASMA_DEEP_RESEARCH/citations_compiled.jsonl",
+      "size_bytes": 2818,
+      "sha256": "a729844bdcdc3df57730a6ae2ff381dea525f5e9b16b92bffa23d32d75170d48"
+    },
+    {
+      "rel_publish_path": "data_and_manifests/VPDR_claims_dataset.csv",
+      "source_path": "VEDIC_PLASMA_DEEP_RESEARCH/claims_dataset.csv",
+      "size_bytes": 8763,
+      "sha256": "2c3a212092c550702fdda0b9a85379bcb84824cb3610d8a68d404d632f373c32"
+    },
+    {
+      "rel_publish_path": "data_and_manifests/VPDR_gradient_ledger.csv",
+      "source_path": "VEDIC_PLASMA_DEEP_RESEARCH/outputs/gradient_ledger.csv",
+      "size_bytes": 10555,
+      "sha256": "5c4f614280fbe008a939b1dacf9f4c29399ae7d7a09d1ae93093483c8aed2eb1"
+    },
+    {
+      "rel_publish_path": "data_and_manifests/VPDR_gradient_summary.json",
+      "source_path": "VEDIC_PLASMA_DEEP_RESEARCH/outputs/gradient_summary.json",
+      "size_bytes": 461,
+      "sha256": "7374ddaf121f7bb8995abc680c34af5c08e14603bac8ad858f7dc039767d2385"
+    },
+    {
+      "rel_publish_path": "data_and_manifests/cern_iter_onion_crevice_metrics.json",
+      "source_path": "hardening_SPH01/outputs/cern_iter_onion_crevice_metrics.json",
+      "size_bytes": 1346,
+      "sha256": "847e4e572d8518bb202adb01687c12165f359c299ab91c14fc4b9fd49e836c9c"
+    },
+    {
+      "rel_publish_path": "data_and_manifests/citations.jsonl",
+      "source_path": "hardening_SPH01/citations.jsonl",
+      "size_bytes": 10207,
+      "sha256": "8ed386d4e952e4ffff968a9875c113473cfceafc3f2d655cc8b9490575d6a01f"
+    },
+    {
+      "rel_publish_path": "data_and_manifests/claims_ledger.csv",
+      "source_path": "hardening_SPH01/claims_ledger.csv",
+      "size_bytes": 34614,
+      "sha256": "571107724240efe7da4c1f82a11ffb36544572d5008cb664e228e1db47d1f2f8"
+    },
+    {
+      "rel_publish_path": "data_and_manifests/e4_followup_mm_output.json",
+      "source_path": "e4_followup_mm_output.json",
+      "size_bytes": 16201,
+      "sha256": "520acdadad42e36852c7a4629f65e68e6d0270f174be9019b811ded661f304bf"
+    },
+    {
+      "rel_publish_path": "data_and_manifests/e4_lunar_residual_output.json",
+      "source_path": "e4_lunar_residual_output.json",
+      "size_bytes": 25420,
+      "sha256": "7c43eee24b3ec0f718e786569d52a604f0a2fca1d6f7c71558879d5511d4a3c1"
+    },
+    {
+      "rel_publish_path": "data_and_manifests/phase2_band_metrics.json",
+      "source_path": "hardening_SPH01/outputs/phase2_band_metrics.json",
+      "size_bytes": 12456,
+      "sha256": "4eabc9829a1004c7b8e9ab11aa53af95b15efa047cec56b3cc500f5bd1d38501"
+    },
+    {
+      "rel_publish_path": "data_and_manifests/quantum_dislocation_tunneling_data.json",
+      "source_path": "quantum_dislocation_tunneling_data.json",
+      "size_bytes": 4406,
+      "sha256": "9c6a920db189f268b2885616eb9564cc8c71a9840f8830c63e20ea428475f5f2"
+    },
+    {
+      "rel_publish_path": "data_and_manifests/spectrum_ledger.csv",
+      "source_path": "hardening_SPH01/spectrum_ledger.csv",
+      "size_bytes": 6371,
+      "sha256": "f64e1187b2aa3ed190029fee7c1520530ca9d4a23f6b37a6f6bdeaf3306c80ad"
+    },
+    {
+      "rel_publish_path": "data_and_manifests/standard_mineral_acoustics_data.json",
+      "source_path": "standard_mineral_acoustics_data.json",
+      "size_bytes": 39452,
+      "sha256": "5ced81952cb953fa49d02f217fa20e02d85e4d16a7ebd779145f8670d96d7727"
+    },
+    {
+      "rel_publish_path": "img/649827850_1522520596543849_7235442531138184316_n.jpg",
+      "source_path": "img/649827850_1522520596543849_7235442531138184316_n.jpg",
+      "size_bytes": 221123,
+      "sha256": "db3c904abc816ca8706473137c2240ff573693523629420a0448c2e8a6a2908f"
+    },
+    {
+      "rel_publish_path": "img/657241702_1535709778558264_7314355871458621813_n.jpg",
+      "source_path": "img/657241702_1535709778558264_7314355871458621813_n.jpg",
+      "size_bytes": 151280,
+      "sha256": "6583574b144e6f60589bf09ff177b8e47c537526523f8c0959dbbba6b157fc0b"
+    },
+    {
+      "rel_publish_path": "img/665085648_1543665481096027_3711512927229630882_n.jpg",
+      "source_path": "img/665085648_1543665481096027_3711512927229630882_n.jpg",
+      "size_bytes": 225359,
+      "sha256": "a5663b88858db7a18581c273a3b22526a741ef1fbab4d8765dd83cdf60d13ce0"
+    },
+    {
+      "rel_publish_path": "img/666879795_1543729277756314_2077239892946886282_n.jpg",
+      "source_path": "img/666879795_1543729277756314_2077239892946886282_n.jpg",
+      "size_bytes": 275517,
+      "sha256": "f536cc41bea7d285fddda3d5b79cb8b4cc823c4d08818951f438a03f2ca48ff9"
+    },
+    {
+      "rel_publish_path": "img/668999028_1550027767126465_4259960073486221640_n.jpg",
+      "source_path": "img/668999028_1550027767126465_4259960073486221640_n.jpg",
+      "size_bytes": 225831,
+      "sha256": "417e86dd5fbbd08fa0966d10a5bdd4190bfb88272013ff64376628569bb0f55b"
+    },
+    {
+      "rel_publish_path": "img/669852549_1550036737125568_4304685301582927823_n.jpg",
+      "source_path": "img/669852549_1550036737125568_4304685301582927823_n.jpg",
+      "size_bytes": 243373,
+      "sha256": "7a7b7929f7cd506d4cb0235634e7b4e67bb0edd120077c10e6396609092b662c"
+    },
+    {
+      "rel_publish_path": "img/671636861_1554356476693594_3462387654876110654_n.jpg",
+      "source_path": "img/671636861_1554356476693594_3462387654876110654_n.jpg",
+      "size_bytes": 235240,
+      "sha256": "c1323ccfc73bea5722d85ca394b6cd8306621a16b059df3d20c7ca01323fbf3c"
+    },
+    {
+      "rel_publish_path": "img/672280460_1550036710458904_1142777529669187004_n.jpg",
+      "source_path": "img/672280460_1550036710458904_1142777529669187004_n.jpg",
+      "size_bytes": 221106,
+      "sha256": "10ae4f79f7049defab29c1a089016a7d7343a94f193e3084c14a6274198cff58"
+    },
+    {
+      "rel_publish_path": "img/672667743_1552969060165669_7698465939373682166_n.jpg",
+      "source_path": "img/672667743_1552969060165669_7698465939373682166_n.jpg",
+      "size_bytes": 170905,
+      "sha256": "303ac2ca68890b582550b62389031c4d11bfd4dbd9e30216927f9e0cae72e7a4"
+    },
+    {
+      "rel_publish_path": "img/673822942_1552969056832336_3263836382800889624_n.jpg",
+      "source_path": "img/673822942_1552969056832336_3263836382800889624_n.jpg",
+      "size_bytes": 210492,
+      "sha256": "2912c4c4be7db198ef08cdd83ad693491f93e55f15ea4ca84b7b090da1612156"
+    },
+    {
+      "rel_publish_path": "img/674578727_1554356480026927_3071923973536098437_n.jpg",
+      "source_path": "img/674578727_1554356480026927_3071923973536098437_n.jpg",
+      "size_bytes": 221946,
+      "sha256": "d2769e3cc4717c6cc15194b08bac90c424b8848c7fdd2bb9d83148a27cbe772d"
+    },
+    {
+      "rel_publish_path": "img/684522153_1567582658704309_5337446999740662595_n.jpg",
+      "source_path": "img/684522153_1567582658704309_5337446999740662595_n.jpg",
+      "size_bytes": 238316,
+      "sha256": "37249119df5eba029a7bcb973581dc4368eff66f1b6b2803126a4eb889334cdf"
+    },
+    {
+      "rel_publish_path": "img/684990439_1567383505390891_362021641081012049_n.jpg",
+      "source_path": "img/684990439_1567383505390891_362021641081012049_n.jpg",
+      "size_bytes": 148819,
+      "sha256": "b47d51960dac84eb982a5ff81024932c24f221fbbe06749b7daa3128932fc66b"
+    },
+    {
+      "rel_publish_path": "img/686104544_1568536811942227_5031925334942622435_n.jpg",
+      "source_path": "img/686104544_1568536811942227_5031925334942622435_n.jpg",
+      "size_bytes": 174378,
+      "sha256": "8f9cb67cf1b6506455764073aa5d97b61fa9d301626356d0b37d8348c1933353"
+    },
+    {
+      "rel_publish_path": "img/686324653_1568536791942229_1787465102272280779_n.jpg",
+      "source_path": "img/686324653_1568536791942229_1787465102272280779_n.jpg",
+      "size_bytes": 163503,
+      "sha256": "3dc3cebb1fbd825a13f41e68d8426f553a030c6d850a58b0052a7ad3b1ca6f36"
+    },
+    {
+      "rel_publish_path": "img/686346382_1567629148699660_8478899748831866604_n.jpg",
+      "source_path": "img/686346382_1567629148699660_8478899748831866604_n.jpg",
+      "size_bytes": 213905,
+      "sha256": "7b8c01ed538dfc7928185bea07ddce2180a3219046186dab2d5165efc19fb819"
+    },
+    {
+      "rel_publish_path": "img/689501594_1570031838459391_5573352655357787990_n.jpg",
+      "source_path": "img/689501594_1570031838459391_5573352655357787990_n.jpg",
+      "size_bytes": 219846,
+      "sha256": "38a040566ea81025d125b64efb5b7ebe70e29d64682f5037a9b7eef70b55377b"
+    },
+    {
+      "rel_publish_path": "img/BIO_bio_chart.png",
+      "source_path": "BIO_GENE_CELLULAR_DEEP_RESEARCH/outputs/bio_chart.png",
+      "size_bytes": 30794,
+      "sha256": "0ff73be9fc47d07d719d929b998a2619b40ac85880e9e327fa265ab6883f6664"
+    },
+    {
+      "rel_publish_path": "img/VM01_eigenmode_map.png",
+      "source_path": "VERIFICATION_MATRIX_01/charts/eigenmode_map.png",
+      "size_bytes": 245882,
+      "sha256": "b43d47aa651666c6442633502abff00097952045820636f9e5b9302d42d28f17"
+    },
+    {
+      "rel_publish_path": "img/VM01_eigenmode_map.svg",
+      "source_path": "VERIFICATION_MATRIX_01/charts/eigenmode_map.svg",
+      "size_bytes": 169037,
+      "sha256": "9c38f2ef31de831bd03294944a8dbf9c8c8107b66fdd513dba8fb1bba63ba237"
+    },
+    {
+      "rel_publish_path": "img/VM01_mode_loadings.png",
+      "source_path": "VERIFICATION_MATRIX_01/charts/mode_loadings.png",
+      "size_bytes": 139955,
+      "sha256": "133f5b001a2bd0c9bbcb677872514abf3d61506e9224c47bac6660dc3ef166ea"
+    },
+    {
+      "rel_publish_path": "img/VM01_mode_loadings.svg",
+      "source_path": "VERIFICATION_MATRIX_01/charts/mode_loadings.svg",
+      "size_bytes": 137386,
+      "sha256": "ae66f37c6a373fede207576b07624dc6b46c2cea8be72ecea97a8a5790eedd23"
+    },
+    {
+      "rel_publish_path": "img/VM01_singular_spectrum.png",
+      "source_path": "VERIFICATION_MATRIX_01/charts/singular_spectrum.png",
+      "size_bytes": 46101,
+      "sha256": "508c35c7c61fa02ef51c1bed6c1abee1ff483efa7c7464d0deb245d71ca2ceba"
+    },
+    {
+      "rel_publish_path": "img/VM01_singular_spectrum.svg",
+      "source_path": "VERIFICATION_MATRIX_01/charts/singular_spectrum.svg",
+      "size_bytes": 40787,
+      "sha256": "26e360cae769440bde978f4ae131a1e09937c929da7d23a69464bc4782641bf0"
+    },
+    {
+      "rel_publish_path": "img/VM01_spectrum_vs_ladders.png",
+      "source_path": "VERIFICATION_MATRIX_01/charts/spectrum_vs_ladders.png",
+      "size_bytes": 138458,
+      "sha256": "4aae9b66e51027ef6c20f9cd888514c0cd6620b17c4c8b988bdc76632cc1a937"
+    },
+    {
+      "rel_publish_path": "img/VM01_spectrum_vs_ladders.svg",
+      "source_path": "VERIFICATION_MATRIX_01/charts/spectrum_vs_ladders.svg",
+      "size_bytes": 105838,
+      "sha256": "87956f422e0ba030c47478421872b5c6bf894e04488dc13d7af4f9027727b885"
+    },
+    {
+      "rel_publish_path": "img/VPDR_gradient_chart.png",
+      "source_path": "VEDIC_PLASMA_DEEP_RESEARCH/outputs/gradient_chart.png",
+      "size_bytes": 49510,
+      "sha256": "8e888567fb3f6341ef02c49ab87bc197f6f8d73660e36c8735d63e8f09075a5b"
+    },
+    {
+      "rel_publish_path": "img/fig1_two_halves_one_bridge.png",
+      "source_path": "FINAL_MASTER_ANALYSIS_figures/fig1_two_halves_one_bridge.png",
+      "size_bytes": 100158,
+      "sha256": "e2e45a583f4605a9547c36e31915ae0851553145165f1ccb872fdc5c1243f079"
+    },
+    {
+      "rel_publish_path": "img/fig2_ideas_cost_vs_payoff.png",
+      "source_path": "FINAL_MASTER_ANALYSIS_figures/fig2_ideas_cost_vs_payoff.png",
+      "size_bytes": 97517,
+      "sha256": "9e970dd9e0d893580bf869f1ddb5e49be7e6c6e402ce27f7381bf1da9c377132"
+    },
+    {
+      "rel_publish_path": "img/spectrum_ledger_chart.png",
+      "source_path": "hardening_SPH01/outputs/spectrum_ledger_chart.png",
+      "size_bytes": 12916,
+      "sha256": "734f264435c7f71cd304f25a6ede16a0848c3a1aed45bc088533236647942a09"
+    },
+    {
+      "rel_publish_path": "img/spectrum_ledger_chart.svg",
+      "source_path": "hardening_SPH01/outputs/spectrum_ledger_chart.svg",
+      "size_bytes": 12500,
+      "sha256": "c94841bdb4dead4ea86438c4c24980cd3f9e613bc7e6221d4ea58997ca0b31d1"
+    },
+    {
+      "rel_publish_path": "reports_v1_baseline/01_Vedic_Metaphysics_Quantum_Energy_Guide.html",
+      "source_path": "01_Vedic_Metaphysics_Quantum_Energy_Guide.html",
+      "size_bytes": 21414,
+      "sha256": "665abdbca9ae385d9e608abc2be01126d80fa4ec9cad8898938947a2eb1f7d34"
+    },
+    {
+      "rel_publish_path": "reports_v1_baseline/02_Physical_Quantum_Thermodynamic_Acoustic_Sculpture.html",
+      "source_path": "02_Physical_Quantum_Thermodynamic_Acoustic_Sculpture.html",
+      "size_bytes": 65466,
+      "sha256": "eb67ab5e60d6aa61f69c9fb022524e60f8a26ad31c24994e82509d2dbd91be86"
+    },
+    {
+      "rel_publish_path": "reports_v1_baseline/03_Lux_Aura_Infrastructure.html",
+      "source_path": "03_Lux_Aura_Infrastructure.html",
+      "size_bytes": 59478,
+      "sha256": "979fa003d748256c4211927d8292c40388f38c95cf86d8d00bf77e6a194530ec"
+    },
+    {
+      "rel_publish_path": "reports_v1_baseline/04_The_Calculus_of_Convergence.html",
+      "source_path": "04_The_Calculus_of_Convergence.html",
+      "size_bytes": 36213,
+      "sha256": "1171e5ba61f5a1a4e43f0328a75296b8ba5d828e9e25133c57627935ea633576"
+    },
+    {
+      "rel_publish_path": "reports_v1_baseline/05_Lux_Aura_Project_History_P2P_to_Digital_Temple.html",
+      "source_path": "05_Lux_Aura_Project_History_P2P_to_Digital_Temple.html",
+      "size_bytes": 11784,
+      "sha256": "4b4139f4eac95b3193284a605cab19dcb091e9ada6d7d9b6ba3ac3d692cb765b"
+    },
+    {
+      "rel_publish_path": "reports_v1_baseline/Consolidated_Master_Report_AS_NME.md",
+      "source_path": "Consolidated_Master_Report_AS_NME.md",
+      "size_bytes": 27647,
+      "sha256": "d9a14d38f14792d3867c40c16c35ec86c750acefe04762a18c404757e80c29bd"
+    },
+    {
+      "rel_publish_path": "reports_v1_baseline/Standard_Dislocation_Tunneling_Reference.html",
+      "source_path": "Standard_Dislocation_Tunneling_Reference.html",
+      "size_bytes": 12082,
+      "sha256": "911009f672ecff4203b8b9261d13129db9c8fece85866ab999f7c8d2e0e0e75e"
+    },
+    {
+      "rel_publish_path": "reports_v1_baseline/Standard_Dislocation_Tunneling_Reference.md",
+      "source_path": "Standard_Dislocation_Tunneling_Reference.md",
+      "size_bytes": 8831,
+      "sha256": "0c3470d53bd50622fc594ae9682424cbc7da2c8c94afc5b41336d05a9bae3a3a"
+    },
+    {
+      "rel_publish_path": "reports_v1_baseline/Standard_Mineral_Spectroscopy_Acoustics_Reference.md",
+      "source_path": "Standard_Mineral_Spectroscopy_Acoustics_Reference.md",
+      "size_bytes": 5533,
+      "sha256": "db1e36e4f329e3f4df3b4610a1ae326a3bbba1c81eb07392625489184a255d63"
+    },
+    {
+      "rel_publish_path": "reports_v1_baseline/Standard_Physics_Materials_Dashboard.html",
+      "source_path": "Standard_Physics_Materials_Dashboard.html",
+      "size_bytes": 28118,
+      "sha256": "17b87fe61786aff5e6e99c86914a311460adeaa81ea25b37138dbee649e1ef76"
+    },
+    {
+      "rel_publish_path": "reports_v1_baseline/Substack_All_Articles_Index.html",
+      "source_path": "Substack_All_Articles_Index.html",
+      "size_bytes": 3224,
+      "sha256": "f11f3ff88b5dcd361bf71b16039eb40acb52a4367c7691bb613cf5a12f9e306c"
+    },
+    {
+      "rel_publish_path": "reports_v1_baseline/Substack_Ready_Master_Report.html",
+      "source_path": "Substack_Ready_Master_Report.html",
+      "size_bytes": 21414,
+      "sha256": "665abdbca9ae385d9e608abc2be01126d80fa4ec9cad8898938947a2eb1f7d34"
+    },
+    {
+      "rel_publish_path": "reports_v1_baseline/Task_01_Acoustic_Softening_NME_Report.md",
+      "source_path": "Task_01_Acoustic_Softening_NME_Report.md",
+      "size_bytes": 11424,
+      "sha256": "7645b94bbe4a5b9b6caa37398034bb9465ac432f83f4a968a2aefe18e9eba1fa"
+    },
+    {
+      "rel_publish_path": "reports_v1_baseline/Task_02_Energy_Scaling_Matrix_Report.md",
+      "source_path": "Task_02_Energy_Scaling_Matrix_Report.md",
+      "size_bytes": 11478,
+      "sha256": "b13cf45f34ec28c2f6a7d23997bc4a183db605a58364e0a3a3ef2a32c6cd6c82"
+    },
+    {
+      "rel_publish_path": "reports_v1_baseline/Task_03_Numerical_Simulation_Spec_Report.md",
+      "source_path": "Task_03_Numerical_Simulation_Spec_Report.md",
+      "size_bytes": 11313,
+      "sha256": "35e71f48616925a74f3dcaaf36197d9c8802ccb5aacf8c94e960d6e7f49d946e"
+    },
+    {
+      "rel_publish_path": "reports_v1_baseline/Task_04_Astra_Data_Hardening_Protocol_Report.md",
+      "source_path": "Task_04_Astra_Data_Hardening_Protocol_Report.md",
+      "size_bytes": 19738,
+      "sha256": "a21653aaa59c80a3d9cbaeace752b95a6c296d216defa48cde9ed6f5ac937a5e"
+    },
+    {
+      "rel_publish_path": "reports_v1_baseline/Task_05_Unified_Convergence_Integral_Report.md",
+      "source_path": "Task_05_Unified_Convergence_Integral_Report.md",
+      "size_bytes": 14045,
+      "sha256": "90bff7298fe1320f9f875e1d9380ea758448046158f66f95fe1e7943173bd640"
+    },
+    {
+      "rel_publish_path": "reports_v2/BAND_CE_CHEM_ELEC.md",
+      "source_path": "hardening_SPH01/BAND_CE_CHEM_ELEC.md",
+      "size_bytes": 18672,
+      "sha256": "a65d6e98689f3471852aa811b35b3be4815c99e873e1f84025b6fb23b0501393"
+    },
+    {
+      "rel_publish_path": "reports_v2/BAND_Q_QUANTUM.md",
+      "source_path": "hardening_SPH01/BAND_Q_QUANTUM.md",
+      "size_bytes": 23769,
+      "sha256": "390c83465d77ae47ecae2aa56fa40dad79e02b6fe385391c00edb5231134c521"
+    },
+    {
+      "rel_publish_path": "reports_v2/BAND_V_VIBRATIONAL.md",
+      "source_path": "hardening_SPH01/BAND_V_VIBRATIONAL.md",
+      "size_bytes": 23267,
+      "sha256": "dfd648425d7ccaa9a7910c35cb0f5bc9add8f46557e2c09151b7a35a944a6167"
+    },
+    {
+      "rel_publish_path": "reports_v2/BGCDR-01.md",
+      "source_path": "BIO_GENE_CELLULAR_DEEP_RESEARCH/BGCDR-01.md",
+      "size_bytes": 17744,
+      "sha256": "7f5cc710f990bcab822a2feff64d953d33dd83a734256a622824719db09df07f"
+    },
+    {
+      "rel_publish_path": "reports_v2/BIG_SCIENCE_CORRELATION.md",
+      "source_path": "hardening_SPH01/BIG_SCIENCE_CORRELATION.md",
+      "size_bytes": 12213,
+      "sha256": "efdc73ff6d7e27f8cf1ec5758a287b7472b63520e448a14f12b18b0ba6dc8693"
+    },
+    {
+      "rel_publish_path": "reports_v2/CERN_ITER_ONION_CREVICE_CORRELATION.md",
+      "source_path": "hardening_SPH01/CERN_ITER_ONION_CREVICE_CORRELATION.md",
+      "size_bytes": 22429,
+      "sha256": "e169971cb3e248128456a4ce9a7fd762313fa373e5e0e5d4dd92fb18d0c6ddc2"
+    },
+    {
+      "rel_publish_path": "reports_v2/CHANGELOG.md",
+      "source_path": "hardening_SPH01/CHANGELOG.md",
+      "size_bytes": 9617,
+      "sha256": "ac6a5389dbb4308f35bd283e73eb12a0a7b5868196f17be19432a452355c231f"
+    },
+    {
+      "rel_publish_path": "reports_v2/CROSS_BAND_VERDICT_MATRIX.md",
+      "source_path": "hardening_SPH01/CROSS_BAND_VERDICT_MATRIX.md",
+      "size_bytes": 10736,
+      "sha256": "214114c294c62a450cb198691675c200cbd7b7ec13dd3584f3ab007ca2f31832"
+    },
+    {
+      "rel_publish_path": "reports_v2/DEFERRALS.md",
+      "source_path": "hardening_SPH01/DEFERRALS.md",
+      "size_bytes": 6466,
+      "sha256": "acd76328e1c13b0be8fc6a5fbda36ce2a37e479850071c72e98ce809378e84f6"
+    },
+    {
+      "rel_publish_path": "reports_v2/GOVERNANCE_BENCHMARK.md",
+      "source_path": "hardening_SPH01/GOVERNANCE_BENCHMARK.md",
+      "size_bytes": 9101,
+      "sha256": "55c988947c1952ca2c18339bfe86fb066c307b24003255b1defc518b8947fb9e"
+    },
+    {
+      "rel_publish_path": "reports_v2/ONION_LAYER_BREATHING_CREVICE_SYNTHESIS.md",
+      "source_path": "hardening_SPH01/ONION_LAYER_BREATHING_CREVICE_SYNTHESIS.md",
+      "size_bytes": 20288,
+      "sha256": "05660c599f6485953de779f02f40f1caf08f1113728c4810333db0ba4b1077eb"
+    },
+    {
+      "rel_publish_path": "reports_v2/OpenCodeBP_ONION_CREVICE_SYNTHESIS.md",
+      "source_path": "OpenCodeBP/ONION_CREVICE_SYNTHESIS.md",
+      "size_bytes": 20077,
+      "sha256": "319fac4bb80a10a3ab21b5532d9f61f7726b4b5814f0f42c79aed6aef92bb5cc"
+    },
+    {
+      "rel_publish_path": "reports_v2/OpenCodeBP_PREREG.md",
+      "source_path": "OpenCodeBP/PREREG.md",
+      "size_bytes": 6242,
+      "sha256": "b61b059ea67e69b7d12c8072143a03e512ea1a3670fb2a6e622ca79fdcbf4e77"
+    },
+    {
+      "rel_publish_path": "reports_v2/PREREG.md",
+      "source_path": "hardening_SPH01/PREREG.md",
+      "size_bytes": 8209,
+      "sha256": "e3820de9f524e42a3ada9b56d183f166ed017bbd4fa6cdd7451676610b398543"
+    },
+    {
+      "rel_publish_path": "reports_v2/RESEARCH_NOTES_BIO.md",
+      "source_path": "BIO_GENE_CELLULAR_DEEP_RESEARCH/RESEARCH_NOTES_BIO.md",
+      "size_bytes": 1763,
+      "sha256": "14dbc0945a9e8d8dc2fdff639ef6d28189ea634c10b32b6601414de14aea22d9"
+    },
+    {
+      "rel_publish_path": "reports_v2/RESEARCH_NOTES_VPDR.md",
+      "source_path": "VEDIC_PLASMA_DEEP_RESEARCH/RESEARCH_NOTES.md",
+      "size_bytes": 1276,
+      "sha256": "beeba638de729945cb5e54a40ec13562c1c7df529580d01b2ef6436a21122844"
+    },
+    {
+      "rel_publish_path": "reports_v2/SPECTRUM_LEDGER.md",
+      "source_path": "hardening_SPH01/SPECTRUM_LEDGER.md",
+      "size_bytes": 9456,
+      "sha256": "b286466f30d6991657a781f31e50da1f96591f3ab1d50a22d80118258b8ac283"
+    },
+    {
+      "rel_publish_path": "reports_v2/Standard_Dislocation_Tunneling_Reference_v2.md",
+      "source_path": "hardening_SPH01/Standard_Dislocation_Tunneling_Reference_v2.md",
+      "size_bytes": 11824,
+      "sha256": "419de9ccae3f5bfaecc7e0d09f4ea35d743aad49c54d97c6ee3618f9f68eb54a"
+    },
+    {
+      "rel_publish_path": "reports_v2/Task_01_v2.md",
+      "source_path": "hardening_SPH01/Task_01_v2.md",
+      "size_bytes": 10750,
+      "sha256": "e3c29907280a849f983e78ae04596e9fca26a659c4dcc3bbceb0545f7a10958b"
+    },
+    {
+      "rel_publish_path": "reports_v2/Task_02_v2.md",
+      "source_path": "hardening_SPH01/Task_02_v2.md",
+      "size_bytes": 9710,
+      "sha256": "7b3aebbf345c86f7a04dc02ee96707a4c5ddb7f17ad3df8d2387cde0c916b57e"
+    },
+    {
+      "rel_publish_path": "reports_v2/Task_04_v2.md",
+      "source_path": "hardening_SPH01/Task_04_v2.md",
+      "size_bytes": 14896,
+      "sha256": "56e63afdcd94c03a78581689de8049a2b03db960b415b0754f5afa8454d34d8d"
+    },
+    {
+      "rel_publish_path": "reports_v2/VEDIC_CONCORDANCE.md",
+      "source_path": "hardening_SPH01/VEDIC_CONCORDANCE.md",
+      "size_bytes": 8876,
+      "sha256": "9cb6a08ea0f5ea03792fdc15631f21c23a4249b3ae41e4d4da584d46a2a5f467"
+    },
+    {
+      "rel_publish_path": "reports_v2/VERIFICATION_MATRIX_REPORT.md",
+      "source_path": "VERIFICATION_MATRIX_01/VERIFICATION_MATRIX_REPORT.md",
+      "size_bytes": 16780,
+      "sha256": "d4f638994dcee3e6155c4f9b967ad8753063a8258d3909fcfbbde5693ab6d0fe"
+    },
+    {
+      "rel_publish_path": "reports_v2/VERIFICATION_REPORT.md",
+      "source_path": "hardening_SPH01/VERIFICATION_REPORT.md",
+      "size_bytes": 5135,
+      "sha256": "4b394f85652058ff51f21c0ff39ee7e2b262843991e427aa27cb1ba3ca26b89b"
+    },
+    {
+      "rel_publish_path": "reports_v2/VERIFICATION_REPORT_BIO.md",
+      "source_path": "BIO_GENE_CELLULAR_DEEP_RESEARCH/VERIFICATION_REPORT_BIO.md",
+      "size_bytes": 2138,
+      "sha256": "07eda5b82280745d372aa7b151a7c50395bcf8c7ab423161fed95ac6de6574bb"
+    },
+    {
+      "rel_publish_path": "reports_v2/VERIFICATION_REPORT_VPDR.md",
+      "source_path": "VEDIC_PLASMA_DEEP_RESEARCH/VERIFICATION_REPORT_VPDR.md",
+      "size_bytes": 2350,
+      "sha256": "b81e7a1b48d2d745211f3461acea7eb5356854e80a7f063990f39b52209e1902"
+    },
+    {
+      "rel_publish_path": "reports_v2/VPDR-01.md",
+      "source_path": "VEDIC_PLASMA_DEEP_RESEARCH/VPDR-01.md",
+      "size_bytes": 25944,
+      "sha256": "14c260c00e4c612bd0188f9dd8a30a517d18148927a78a02d473b4e275d3a48e"
+    },
+    {
+      "rel_publish_path": "reports_v2/verification_matrix_01.html",
+      "source_path": "VERIFICATION_MATRIX_01/verification_matrix_01.html",
+      "size_bytes": 90210,
+      "sha256": "d2e5f6e7fa76a59d1355a9769eb1a1bc9ad422d209bbee65a35345773d82ee9b"
+    },
+    {
+      "rel_publish_path": "scripts/BIO_crunch_bio.py",
+      "source_path": "BIO_GENE_CELLULAR_DEEP_RESEARCH/scripts/crunch_bio.py",
+      "size_bytes": 4425,
+      "sha256": "42b4dd9eeca63ea4e9a08d44bf2ca4f34786c75d1bb1d1123c9c6ac0e374ab6c"
+    },
+    {
+      "rel_publish_path": "scripts/OpenCodeBP_onion_crevice_derivation.py",
+      "source_path": "OpenCodeBP/scripts/onion_crevice_derivation.py",
+      "size_bytes": 7437,
+      "sha256": "e8113b9d1191f7377865f1fc9d219a95c22e05df06576557bab06ccc4dea782d"
+    },
+    {
+      "rel_publish_path": "scripts/OpenCodeBP_pin_corpus.py",
+      "source_path": "OpenCodeBP/scripts/pin_corpus.py",
+      "size_bytes": 2120,
+      "sha256": "98b7a55f8a9ff8ec153f64a15111b6bf559475a6e77e9397612fca2dea1b14b1"
+    },
+    {
+      "rel_publish_path": "scripts/VM01_build_verification_matrix.py",
+      "source_path": "VERIFICATION_MATRIX_01/scripts/build_verification_matrix.py",
+      "size_bytes": 36764,
+      "sha256": "8a611a4fd8bbb4c083c860b845c0f762b171270336c54c8486cb07d3816514ef"
+    },
+    {
+      "rel_publish_path": "scripts/VPDR_crunch_gradient.py",
+      "source_path": "VEDIC_PLASMA_DEEP_RESEARCH/scripts/crunch_gradient.py",
+      "size_bytes": 7032,
+      "sha256": "009b4a8bd2da27aed6ac1542e66dfd02ba55ff15c9e1dd266f6f779e317e80a7"
+    },
+    {
+      "rel_publish_path": "scripts/e4_followup_mm.py",
+      "source_path": "e4_followup_mm.py",
+      "size_bytes": 8300,
+      "sha256": "e62d2c7b670e8a1aa4d7f321b16b41258770ea8c9268df2b29d6fc35f98559b1"
+    },
+    {
+      "rel_publish_path": "scripts/e4_lunar_residual_search.py",
+      "source_path": "e4_lunar_residual_search.py",
+      "size_bytes": 18441,
+      "sha256": "b2a41f41dfe8238b10e237d1051271e112991af753071625c62b4b5b84092fd5"
+    },
+    {
+      "rel_publish_path": "scripts/format_all_substack_articles.py",
+      "source_path": "format_all_substack_articles.py",
+      "size_bytes": 34261,
+      "sha256": "1d8f3ea20c2d2fc0b523808610d0911aef109086722d83c7b3e3ee6fc09535bb"
+    },
+    {
+      "rel_publish_path": "scripts/phase0_1_extract_and_spectrum.py",
+      "source_path": "hardening_SPH01/scripts/phase0_1_extract_and_spectrum.py",
+      "size_bytes": 71121,
+      "sha256": "15fdd79075a1c06b1fe7beba0cf31229da1484853408fab5514fb72fe0ac4f57"
+    },
+    {
+      "rel_publish_path": "scripts/phase2_band_computations.py",
+      "source_path": "hardening_SPH01/scripts/phase2_band_computations.py",
+      "size_bytes": 14585,
+      "sha256": "fa75cd6aa76f48e394fa345b6114bad142ae582a86fb1d76267dc995ecdf7c07"
+    },
+    {
+      "rel_publish_path": "scripts/phase4_cern_iter_onion_crevice_metrics.py",
+      "source_path": "hardening_SPH01/scripts/phase4_cern_iter_onion_crevice_metrics.py",
+      "size_bytes": 7128,
+      "sha256": "3331a4ed7697a6f4091eda84252bf040662ec56f801d15cc06d124a5780c284b"
+    },
+    {
+      "rel_publish_path": "scripts/requirements.txt",
+      "source_path": "hardening_SPH01/requirements.txt",
+      "size_bytes": 85,
+      "sha256": "a37c8db469677baa274e4ea96201c2510a03bd847b496e0ab8da3c79f0af27aa"
+    },
+    {
+      "rel_publish_path": "scripts/sim_cavity_acoustics.cpp",
+      "source_path": "sim_cavity_acoustics.cpp",
+      "size_bytes": 7782,
+      "sha256": "74576e7eaa48d133baf75b650b370a9d83d7d3543bc36f59e924fe0b06cb349b"
+    },
+    {
+      "rel_publish_path": "scripts/sim_cavity_acoustics.py",
+      "source_path": "sim_cavity_acoustics.py",
+      "size_bytes": 3602,
+      "sha256": "b0f53d9d1265829e013b17a54769a2a8eaed3fcfc9dd61b6e1b7f6e7b4e9b331"
+    },
+    {
+      "rel_publish_path": "scripts/stage_and_verify_publish_package.py",
+      "source_path": "hardening_SPH01/scripts/stage_and_verify_publish_package.py",
+      "size_bytes": 23425,
+      "sha256": "3132d122f13d40f6c378b8eb33cff9d84bc23f589484604de885ed090ace1e30"
+    },
+    {
+      "rel_publish_path": "scripts/standard_mineral_acoustics_visualizer.py",
+      "source_path": "standard_mineral_acoustics_visualizer.py",
+      "size_bytes": 20175,
+      "sha256": "db6de65c094dde947afbd6005532aa8778aa0965e31801adbb34354a4cdca60e"
+    },
+    {
+      "rel_publish_path": "scripts/verify_convergence_integral.py",
+      "source_path": "verify_convergence_integral.py",
+      "size_bytes": 3406,
+      "sha256": "56c5182d0203ca280586d0a7bbd4a101b690599445b1bf47aa227f8ff5138458"
+    },
+    {
+      "rel_publish_path": "scripts/verify_metamaterial_and_hugoniot.py",
+      "source_path": "verify_metamaterial_and_hugoniot.py",
+      "size_bytes": 5831,
+      "sha256": "4b40fc0afc3766ae0e14885b65fe2c7ac946c7439ccacc3582a3c94d39ab92f6"
+    },
+    {
+      "rel_publish_path": "scripts/verify_quantum_resonance.py",
+      "source_path": "verify_quantum_resonance.py",
+      "size_bytes": 7126,
+      "sha256": "7a19470c3f6298d865ff4120f2f21cff61591f473012b11078aa1962bcefe03c"
+    },
+    {
+      "rel_publish_path": "scripts/verify_sph01_manifest.py",
+      "source_path": "hardening_SPH01/scripts/verify_sph01_manifest.py",
+      "size_bytes": 9564,
+      "sha256": "a289a415d5c6fd5470caf960f7cef2cee101ffc45e92b4091f8e03ff309e1335"
+    }
+  ]
+}
