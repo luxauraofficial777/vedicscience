@@ -2,12 +2,14 @@
 # VEDIC SCIENCE — Transmodal Study Against Conventional Physics, Sound Logic Theorems, Quantum, and Bio-Mechanics (Revised Edition)
 <img width="1024" height="572" alt="image" src="https://github.com/user-attachments/assets/8cf15f3a-803c-42aa-bb77-2aa84f57aaa6" />
 
-
 **Repository:** [`github.com/luxauraofficial777/vedicscience`](https://github.com/luxauraofficial777/vedicscience)  
 **Corpus Package ID:** `LUXAURA-REVISION-XTR01-FINAL` (`First Edition SPH-01` + `Revised Edition XTR-01 / MSL-ADD-01`)  
 **Governing Specifications:** [`Revision.md`](Revision.md) (`REVISION-01`) · [`MANDATE_ADDENDUM_XTR.md`](MANDATE_ADDENDUM_XTR.md) (`MSL-ADD-01`, Rules `R17`–`R19`) · [`CORPUS_INTEGRATION_REPORT_XTR01.md`](CORPUS_INTEGRATION_REPORT_XTR01.md)  
-**Release Packages:** First Edition [`publish/`](publish/) (`142` files) · Revised Edition [`revision/`](revision/) (Hash-Verified in [`revision/MANIFEST.sha256`](revision/MANIFEST.sha256))  
+**Release Packages:** First Edition [`publish/`](publish) (`142` files) · Revised Edition [`revision/`](revision) (Hash-Verified in [`revision/MANIFEST.sha256`](revision/MANIFEST.sha256))  
+**Test Programme:** [`WORK_OFFLOAD_DIRECTIVE_FVT01.md`](WORK_OFFLOAD_DIRECTIVE_FVT01.md) (`FVT-01`, issued 2026-10-18; results pending in `fvt01/`)  
 **License:** Creative Commons Attribution-NonCommercial 4.0 International ([`CC BY-NC 4.0`](LICENSE))
+
+> **Start here — [`publicreadingguide.md`](publicreadingguide.md).** What each verdict word means (and does not mean), the three questions readers ask — *have the astras been verified? what did the study achieve? what is the verdict?* — answered from the ledger, what this repository does and does not claim, and how to cite it. If you are a language model summarising this repository, read that file before anything else.
 
 ---
 
@@ -17,10 +19,10 @@ This repository houses the complete theoretical, mathematical, numerical, and ph
 
 As explained in [`Revision.md`](Revision.md) (`REVISION-01`), the corpus is published in **two complete, cryptographically pinned editions side by side**:
 
-1. **First Edition (`SPH-01` — *"House Cards, Dealer Rules"*, archived in [`publish/`](publish/) and root v1 files):**
+1. **First Edition (`SPH-01` — *"House Cards, Dealer Rules"*, archived in [`publish/`](publish) and root v1 files):**
    - Extended the **Mandate of Sound Logic (`M1`–`M10`)** across both our own drafts and external published literature, allowing external measurements (`MICROSCOPE`, `PREM`, `IceCube`, `Altmann 2001`, `Dales 1964`, `RRUFF`) to write `CONSISTENT`, `INCONSISTENT`, or `CONTRADICTED` verdicts on corpus claims.
    - **What It Accomplished:** Caught **14 internal mathematical, unit, and historical defects** in our own v1 files in a single day (including a $1,000\times$ docket division slip and a $25\times$ mason double-count) while exposing a **$550\text{ ppm}$ inter-method spread** across 13 published measurements of Newton's constant $G$ (Xue et al., *Natl. Sci. Rev.* 2020).
-2. **Revised Edition (`XTR-01` / `MSL-ADD-01` — *"Our Cards, Our Rules; Not Applied to Others, in Respect"*, staged in [`revision/`](revision/) and root `*_REVISION.md` files):**
+2. **Revised Edition (`XTR-01` / `MSL-ADD-01` — *"Our Cards, Our Rules; Not Applied to Others, in Respect"*, staged in [`revision/`](revision) and root `*_REVISION.md` files):**
    - Narrows Mandate verdicts strictly to **our own pre-registered empirical runs (`OWN-TEST`) and self-contained mathematical derivations (`DERIVATION` / `INTERNAL-ARITHMETIC`)** under Rules `R17`–`R19`:
      - **Rule `R17`:** External published literature is recorded respectfully in full (`value ± uncertainty, source, medium`) as a **boundary bar** (`PRIOR-CONSTRAINED` or `PRIOR-CONSISTENT`), never as an un-re-run verdict.
      - **Rule `R18`:** Only our own executed data (`OWN-TEST`) or zero-outside-data derivations (`DERIVATION`) write `SUPPORTED`, `CONTRADICTED`, or `INCONSISTENT`.
@@ -34,31 +36,34 @@ All original First Edition root documents remain untouched under **Rule `R2`**. 
 
 | Revised Edition Root File | First Edition Counterpart | Role & Scope |
 | :--- | :--- | :--- |
-| **[`PUBLIC_REFLECTION_ARGON_REVISION.md`](PUBLIC_REFLECTION_ARGON_REVISION.md)** | [`PUBLIC_REFLECTION_ARGON.md`](PUBLIC_REFLECTION_ARGON.md) | **Public Reflection & Whitepaper Summary (Revised Edition):** Frames *"House Cards, Dealer Rules"* vs. *"Our Cards, Our Rules"*, declares the explicit `PROPOSED` status of the Onion-Layer / Breathing-Crevice lens (`A3-weak`, `D10`), summarizes the 20 `SUPPORTED` truths and 6 `XTR-01` bridges (`B1`–`B6`), and outlines the 9 discovery tests (`T-1`–`T-9`). |
+| **[`PUBLIC_REFLECTION_ARGON_REVISION.md`](PUBLIC_REFLECTION_ARGON_REVISION.md)** | [`PUBLIC_REFLECTION_ARGON.md`](PUBLIC_REFLECTION_ARGON.md) | **Public Reflection & Whitepaper Summary (Revised Edition):** Frames *"House Cards, Dealer Rules"* vs. *"Our Cards, Our Rules"*, declares the explicit `PROPOSED` status of the Onion-Layer / Breathing-Crevice lens (`A3-weak`, `D10`), summarizes the 19 `SUPPORTED` truths and 6 `XTR-01` bridges (`B1`–`B6`), and outlines the 9 discovery tests (`T-1`–`T-9`). |
 | **[`FINAL_MASTER_ANALYSIS_ARGON_REVISION.md`](FINAL_MASTER_ANALYSIS_ARGON_REVISION.md)** | [`FINAL_MASTER_ANALYSIS_ARGON.md`](FINAL_MASTER_ANALYSIS_ARGON.md) | **Master Technical Consolidation (Revised Edition):** Complete 9-layer technical synthesis across Bands `Q`, `CE`, `V`, Ladders `L1`–`L3`, Bridges `B1`–`B6`, the full **95-row re-graded claims ledger**, the **Superseded Values Registry**, and all 13 remediated `XTR-01` defects (`D1`–`D13`). |
 | **[`FINAL_MASTER_ANALYSIS_REVISION.md`](FINAL_MASTER_ANALYSIS_REVISION.md)** | [`FINAL_MASTER_ANALYSIS.md`](FINAL_MASTER_ANALYSIS.md) | **Ground-Truth Master Analysis (Revised Edition):** Updated axiom grades (`A1`–`A4`), SVD cavity bridge analysis, `XTR-01` ground-truth ledger, and institutional comparison under `MSL-ADD-01`. |
-| **[`README_REVISION.md`](README_REVISION.md)** | [`README.md`](README.md) | **Revised Edition Repository Guide** (this file). |
-| **[`TOC_REVISION.md`](TOC_REVISION.md)** | [`TOC.md`](TOC.md) | **Revised Edition Master Table of Contents** indexing both `revision/` and `publish/`. |
+| **[`README.md`](README.md)** (this file) | [`publish/README.md`](publish/README.md) | **Repository Guide (Revised Edition).** The First-Edition README is archived unchanged as [`publish/README.md`](publish/README.md) and reproduced as §7 below; the package copy of this guide is [`revision/README_REVISION.md`](revision/README_REVISION.md). |
+| **[`TOC.md`](TOC.md)** | [`publish/TOC.md`](publish/TOC.md) | **Master Table of Contents** indexing the root, `revision/` and `publish/`; the First-Edition TOC is archived as [`publish/TOC.md`](publish/TOC.md). |
+| **[`publicreadingguide.md`](publicreadingguide.md)** | — | **Public Reading Guide (`PUBLIC-READING-GUIDE-01`):** verdict glossary, the three questions answered from the ledger, what is and is not claimed, verification, citation. |
+| **[`WORK_OFFLOAD_DIRECTIVE_FVT01.md`](WORK_OFFLOAD_DIRECTIVE_FVT01.md)** | [`WORK_OFFLOAD_DIRECTIVE_XTR01.md`](WORK_OFFLOAD_DIRECTIVE_XTR01.md) | **Final Verdict Tests (`FVT-01`):** the pre-registered own-data test programme (14 tests, crosswalk of test IDs, rules `R20`–`R27`, data-intake schema) that is the only thing allowed to move the 51 waiting rows. |
+| **[`revision/PROOFREAD_AUDIT.md`](revision/PROOFREAD_AUDIT.md)** | [`HARDENING_REPORT.md`](HARDENING_REPORT.md) | **Proofread Audit (`REVISION-PROOFREAD-01`, Rev B):** what was checked, fixed (`F1`–`F11`) and decided in the Revised Edition package before publication. |
 | **[`Revision.md`](Revision.md)** | — | **Editorial Charter (`REVISION-01`):** Defines the philosophical and methodological transition from the First Edition to the Revised Edition. |
-| **[`MANDATE_ADDENDUM_XTR.md`](MANDATE_ADDENDUM_XTR.md)** | [`WORK_OFFLOAD_DIRECTIVE_SPH01.md`](WORK_OFFLOAD_DIRECTIVE_SPH01.md) | **Mandate Addendum (`MSL-ADD-01`):** Formal specification of Rules `R17`–`R19` and the 8 Revised Edition status tags. |
-| **[`CORPUS_INTEGRATION_REPORT_XTR01.md`](CORPUS_INTEGRATION_REPORT_XTR01.md)** | [`HARDENING_REPORT.md`](HARDENING_REPORT.md) | **Cross-Check & Integration Audit (`XTR01-INTEGRATION-01`):** Audits Track A (`AgentA/`), Track B (`AgentB/`), and Argon (`extrapolation_XTR01/ARGON/`), documenting defects `D1`–`D13` and the canonical integration map. |
+| **[`MANDATE_ADDENDUM_XTR.md`](MANDATE_ADDENDUM_XTR.md)** | [`WORK_OFFLOAD_DIRECTIVE_SPH01.md`](publish/WORK_OFFLOAD_DIRECTIVE_SPH01.md) | **Mandate Addendum (`MSL-ADD-01`):** Formal specification of Rules `R17`–`R19` and the 8 Revised Edition status tags. |
+| **[`CORPUS_INTEGRATION_REPORT_XTR01.md`](CORPUS_INTEGRATION_REPORT_XTR01.md)** | [`HARDENING_REPORT.md`](HARDENING_REPORT.md) | **Cross-Check & Integration Audit (`XTR01-INTEGRATION-01`):** Audits Track A, Track B (canonical outputs in `revision/xtr01_canonical/`), and Argon (`revision/argon_reevaluation/`), documenting defects `D1`–`D13` and the canonical integration map. |
 
 ---
 
 ## 3. Summary of the 95-Row Re-Evaluated Corpus Ledger (`MSL-ADD-01`)
 
-Across the **95 total claims** in [`extrapolation_XTR01/ARGON/claims_ledger_regraded.csv`](extrapolation_XTR01/ARGON/claims_ledger_regraded.csv) (`56` `SPH-01` core claims + `39` `XTR-01` extrapolation claims):
+Across the **95 total claims** in [`revision/argon_reevaluation/claims_ledger_regraded.csv`](revision/argon_reevaluation/claims_ledger_regraded.csv) (`56` `SPH-01` core claims + `39` `XTR-01` extrapolation claims):
 
 | Revised Edition Status (`MSL-ADD-01`) | `SPH-01` (`56`) | `XTR-01` (`39`) | Total (`95`) | Share (`%`) | Meaning Under Rules `R17`–`R19` |
 | :--- | :---: | :---: | :---: | :---: | :--- |
-| **`SUPPORTED`** | 16 | 4 | **20** | `21.1%` | Verified by our own pre-registered empirical run (`OWN-TEST`) or zero-outside-data derivation (`DERIVATION` / `COMMAND`) |
-| **`CONTRADICTED`** | 2 | 2 | **4** | `4.2%` | Refuted by our own empirical run (`E4` synodic null) or internal conservation-law no-go (`DERIVATION`) |
-| **`INCONSISTENT`** | 15 | 1 | **16** | `16.8%` | Internal arithmetic, dimensional, or parameter self-contradiction (`INTERNAL-ARITHMETIC`) |
-| **`PRIOR-CONSISTENT`** | 11 | 8 | **19** | `20.0%` | Consistent with external published literature (`EXTERNAL-LITERATURE`); no own test run yet |
-| **`PRIOR-CONSTRAINED`** | 7 | 19 | **26** | `27.4%` | Constrained by an external published bar (`value ± uncertainty, source, medium`); paired with an internal test |
-| **`PROPOSED`** | 0 | 3 | **3** | `3.2%` | Testable hypothesis with stated falsifiers (`A3-weak` / `E4-Mm` `T-3`, dynamic `E1` `T-5`, `L1`–`L3` `T-1`) |
-| **`PROPOSED-INCOMPLETE`** | 1 | 2 | **3** | `3.2%` | Hypothesis missing an internal parameter or field measurement (`T-2`, `T-9`) |
-| **`ALLEGORY`** | 4 | 0 | **4** | `4.2%` | Symbolic operator ($\Psi_g, \Xi_{23D}, P_{\text{bs}}$) or structural metaphor (`A04-002`) |
+| **`SUPPORTED`** | 16 | 3 | **19** | `20.0%` | Verified by our own pre-registered empirical run (`OWN-TEST`) or zero-outside-data derivation (`DERIVATION` / `COMMAND`) |
+| **`CONTRADICTED`** | 1 | 3 | **4** | `4.2%` | Refuted by our own empirical run (`E4` synodic null) or internal conservation-law no-go (`DERIVATION`) |
+| **`INCONSISTENT`** | 15 | 2 | **17** | `17.9%` | Internal arithmetic, dimensional, or parameter self-contradiction (`INTERNAL-ARITHMETIC`), including own data against own data (`T03-003`, pending `V3`) |
+| **`PRIOR-CONSISTENT`** | 10 | 7 | **17** | `17.9%` | Consistent with external published literature (`EXTERNAL-LITERATURE`); no own test run yet |
+| **`PRIOR-CONSTRAINED`** | 10 | 16 | **26** | `27.4%` | Constrained by an external published bar (`value ± uncertainty, source, medium`); paired with an internal test |
+| **`PROPOSED`** | 0 | 4 | **4** | `4.2%` | Admitted with a prediction and a falsifier, untested by own data (`A3-weak` `T-4` + `E4-Mm` refit, dynamic `E1` `T-5`, `BGCDR-04/05` `NEW-T18/19`) |
+| **`PROPOSED-INCOMPLETE`** | 1 | 3 | **4** | `4.2%` | Hypothesis missing a named input (`NEW-T10`, `T-8`, `T-9`; `OWN-STASIS` needs a prediction with a unit and a falsifier before any test is queued) |
+| **`ALLEGORY`** | 3 | 1 | **4** | `4.2%` | Symbolic operator ($\Psi_g, \Xi_{23D}, P_{\text{bs}}$) or structural metaphor (`A04-002`) |
 
 ---
 
@@ -68,9 +73,9 @@ Across the **95 total claims** in [`extrapolation_XTR01/ARGON/claims_ledger_regr
    - At $\varepsilon_{\text{ac}} = 1.5 \times 10^{-4}$ ($21.5\text{ kHz}$), the Guyer–Johnson–McCall softening factor is $\mathcal{S} = \mathbf{0.5600}$ ($G_{\text{backbone}} = \mathbf{16.80\text{ GPa}}$, $\sigma_t^{\text{eff}} = \mathbf{11.225\text{ MPa}}$, $Q^{-1} = 0.1592$), with zero-modulus polynomial root $\mathcal{S}(\varepsilon)=0$ at $\varepsilon = \mathbf{2.96 \times 10^{-4}}$ and unit loss limit $Q^{-1}=1$ at $\varepsilon = \mathbf{9.42 \times 10^{-4}}$ (`D6`).
    - Continuous internal friction dissipates $\dot{q}_{\text{hold}} = \mathbf{7.256\text{ MW/m}^3}$, capping a $25\text{ kW}$ array to **$3.445\text{ L}$**—which conditions a **$34.45\text{ m}^2$ ($5.87\text{ m} \times 5.87\text{ m}$) detachment plane** when channeled into a $100\ \mu\text{m}$ foliated parting seam! Paired with the `M7` workforce fix ($24,725 \to \mathbf{989\text{ active masons}}$, $130$ hybrid), monolithic excavation works by cleaving the seam rather than crushing bulk volume.
 2. **The Onion-Layer & Breathing-Crevice Lens (`A3-weak` = `PROPOSED`, `D10`):**
-   - Explicitly graded **`PROPOSED`** with three pre-registered falsifiers (`OpenCodeBP` §6.3, paired with test `T-3`), anchored by two executed `OWN-TEST` results:
+   - Explicitly graded **`PROPOSED`** with three pre-registered falsifiers (`OpenCodeBP` §6.3, paired with test `T-4` and the `E4-Mm` poroelastic refit), anchored by two executed `OWN-TEST` results:
      - **Executed Null (`E4` Synodic Gravimetry — `CONTRADICTED`):** $\delta g/g < \mathbf{4.68 \times 10^{-11}}$ ($\text{UL} = 0.459\text{ nm/s}^2$) at $29.53\text{ d}$, with a non-stationary $2.16\text{–}3.13\times$ excess in the $27.55\text{ d}$ anomalistic perigee band (`E4-Mm`, `PROPOSED`).
-     - **Executed Positive (`XTR-01` Deccan USGS ComCat Fit — `SUPPORTED`):** Gutenberg–Richter exponent **$b = 1.2532$** ($\text{CI}_{95}\ [1.1292, 1.3900]$, $M_c = 4.4$, $N = 492$, `Ellora ±10°`, 2000–2026, `AgentA/outputs/bfit_comcat.json`).
+     - **Executed Positive (`XTR-01` Deccan USGS ComCat Fit — `SUPPORTED`):** Gutenberg–Richter exponent **$b = 1.2532$** ($\text{CI}_{95}\ [1.1292, 1.3900]$, $M_c = 4.4$, $N = 492$, `Ellora ±10°`, 2000–2026, [`revision/xtr01_canonical/bfit_comcat.json`](revision/xtr01_canonical/bfit_comcat.json)).
 3. **Dynamic kHz Gravity Search (`E1` / `T-5` = `PROPOSED`, `D5`):**
    - Detecting $\delta g/g = 1.02 \times 10^{-7}$ at $\varepsilon_{\text{ac}} = 1.5 \times 10^{-4}$ ($21.5\text{ kHz}$) requires $\kappa_{\text{req}} = \mathbf{6.80 \times 10^{-4}}$ (`SUPPORTED` `DERIVATION`), while $\kappa_{\text{allowed}} \le 10^{-11}$ is `PRIOR-CONSTRAINED` on **static** strain only (`D5`), keeping tabletop experiment **`E1` (`T-5`)** open as our #1 laboratory discovery test.
 
@@ -78,14 +83,35 @@ Across the **95 total claims** in [`extrapolation_XTR01/ARGON/claims_ledger_regr
 
 ## 5. Verifying the Revised Edition Package (`revision/MANIFEST.sha256`)
 
-```powershell
-# Verify all SHA-256 hashes in C:\LuxAura\study\revision\MANIFEST.sha256:
-python extrapolation_XTR01/ARGON/scripts/build_revision_package.py --verify
+Both packages are hash-pinned: [`revision/MANIFEST.sha256`](revision/MANIFEST.sha256) and [`publish/MANIFEST.sha256`](publish/MANIFEST.sha256). The zips (`publishrevision.zip`, `publish.zip`) are the same trees. To check a package on any OS (hashes are case-insensitive):
+
+```python
+import hashlib, pathlib, sys
+root = pathlib.Path(sys.argv[1])            # revision  or  publish
+bad = 0
+for line in (root / "MANIFEST.sha256").read_text().splitlines():
+    if "  " not in line: continue
+    h, rel = line.split("  ", 1); p = root / rel.strip()
+    if not p.exists() or hashlib.sha256(p.read_bytes()).hexdigest().lower() != h.lower():
+        bad += 1; print("MISMATCH", rel)
+print("mismatches:", bad)
 ```
 
+The 18 First-Edition originals are pinned in [`publish/reports_v2/PREREG.md`](publish/reports_v2/PREREG.md) and have not changed in either edition. The Revised Edition's own build and audit scripts are in `revision/argon_reevaluation/scripts/` (`build_revision_package.py --verify` re-checks the package on the owner's machine).
 
+---
 
-## 1. Mission & Overview
+## 6. What Is Being Tested Next (`FVT-01`)
+
+51 of the 95 rows are waiting on the programme's own data and, under Rules `R18`–`R19`, nothing else can move them. [`WORK_OFFLOAD_DIRECTIVE_FVT01.md`](WORK_OFFLOAD_DIRECTIVE_FVT01.md) pre-registers every test that can be run at a desk from public data (the spectral-line golden-ratio null, the nautilus expansion ratio from museum sections, a laboratory acoustic-emission b-value against the Deccan fit, the cavity simulation run to steady state, the `E4` pipeline at ten or more gravimeter stations with the lens's own three falsifiers) and prepares the bench tests — `E1` above all — so that measured data drops into a locked analysis. Results will appear in `fvt01/claims_ledger_tested.csv` with the verifier's name on each row; until then the counts in §3 stand.
+
+---
+
+## 7. First Edition Index (`SPH-01`), Archived
+
+*What follows is the First-Edition repository guide, reproduced from [`publish/README.md`](publish/README.md) with its links pointed into `publish/`. It describes the First Edition only. Its "256 audited claims" table counts **evidence classes** (`SOURCE`, `DERIVATION`, `HYPOTHESIS`, `ALLEGORY`, `COMMAND`) — what kind of statement each claim is — not verdicts; the verdict ledger is the 95-row table in §3 above.*
+
+#### 7.7.1 Mission & Overview
 
 This repository houses the complete theoretical, mathematical, numerical, and philological corpus of **Project Lux Aura (`vedicscience`)**: a rigorous **transmodal investigation** evaluating ancient Vedic cosmological, acoustic, plasma, and biological frameworks against hardened **Conventional Physics**, **Sound Logic Theorems**, **Quantum Mechanics**, **Continuum Geophysics**, and **Cellular Bio-Mechanics**.
 
@@ -103,11 +129,11 @@ Rather than treating ancient Sanskrit technical traditions (*Surya-Siddhanta*, *
 
 ---
 
-## 2. Repository Root Architecture (Quick-Start Index)
+#### 7.7.2 Repository Root Architecture (Quick-Start Index)
 
 All primary syntheses, theorem dockets, interactive HTML monographs, and cryptographic manifests are available directly in the repository root. The complete 142-file multi-directory publication tree (`reports_v2/`, `reports_v1_baseline/`, `data_and_manifests/`, `scripts/`, `img/`) is bundled in [`publish.zip`](publish.zip) and verified by [`MANIFEST.sha256`](MANIFEST.sha256).
 
-### 2.1 Master Syntheses & Executive Whitepapers
+#### 7.2.1 Master Syntheses & Executive Whitepapers
 
 | File | Track / Author | Scope & Role |
 | :--- | :--- | :--- |
@@ -117,7 +143,7 @@ All primary syntheses, theorem dockets, interactive HTML monographs, and cryptog
 | **[`ONION_CREVICE_SYNTHESIS.md`](ONION_CREVICE_SYNTHESIS.md)** | **Big Pickle (`OpenCodeBP`)** | **Porous-Media & 7-Loka Synthesis (`BP-ONION-CREVICE-01`):** Biot poroelastic skin-depth mechanics, micro-crevice fluid/acoustic bridging, and 7-tier Vedic *Loka* structural mapping. |
 | **[`TOC.md`](TOC.md)** | **Master Index** | Complete section-by-section **Table of Contents** indexing every root document, `_v2` report, dataset, simulation script, and figure across the root repo and [`publish.zip`](publish.zip). |
 
-### 2.2 Governance, Theorems & Audit Briefs
+#### 7.2.2 Governance, Theorems & Audit Briefs
 
 | File | Scope & Key Contents |
 | :--- | :--- |
@@ -125,10 +151,10 @@ All primary syntheses, theorem dockets, interactive HTML monographs, and cryptog
 | **[`HARDENING_REPORT.md`](HARDENING_REPORT.md)** | Seed audit report documenting Critical Corrections **`C1`–`C4`** and Major Mathematical Hardenings **`M1`–`M8`** across the v1 corpus. |
 | **[`IDEAS_RESEARCH_BRIEF.md`](IDEAS_RESEARCH_BRIEF.md)** | Literature review and experimental grounding for **Ideas `1`–`7`** and **Bench Protocols `D1`–`D7`** (acoustic-electroplastic synergy, piezoelectric granite emissions, cymatic standing waves). |
 | **[`ASTRA_COMPARATIVE_BRIEF.md`](ASTRA_COMPARATIVE_BRIEF.md)** | Philological audit of Sanskrit *Astra* descriptions (**BORI Critical Edition** & **K.M. Ganguli *Mahabharata***) cross-referenced against plasma, thermobaric, and acoustic wave mechanics. |
-| **[`WORK_OFFLOAD_DIRECTIVE_SPH01.md`](WORK_OFFLOAD_DIRECTIVE_SPH01.md)** | Pre-registered execution directive defining **Rules `R1`–`R10`**, the 6-tier epistemic taxonomy, and **Phases `0`–`5`** deliverables. |
+| **[`WORK_OFFLOAD_DIRECTIVE_SPH01.md`](publish/WORK_OFFLOAD_DIRECTIVE_SPH01.md)** | Pre-registered execution directive defining **Rules `R1`–`R10`**, the 6-tier epistemic taxonomy, and **Phases `0`–`5`** deliverables. |
 | **[`PREREG.md`](PREREG.md)** | Pre-registered falsification criteria, statistical thresholds ($\alpha = 0.05$, Holm-Bonferroni family-wise control), and audit gates. |
 
-### 2.3 Foundational Interactive HTML Monographs (`01`–`04`)
+#### 7.2.3 Foundational Interactive HTML Monographs (`01`–`04`)
 
 | File | Monograph Title & Focus |
 | :--- | :--- |
@@ -137,7 +163,7 @@ All primary syntheses, theorem dockets, interactive HTML monographs, and cryptog
 | **[`03_Lux_Aura_Infrastructure.html`](03_Lux_Aura_Infrastructure.html)** | **Part III — Lux Aura Infrastructure:** Multi-scale resonant architectures, lithospheric waveguides, piezoelectric quartz coupling, and energy scaling matrices. |
 | **[`04_The_Calculus_of_Convergence.html`](04_The_Calculus_of_Convergence.html)** | **Part IV — The Calculus of Convergence:** Coupled field equations, Euclidean bounce actions, Caldeira-Leggett dissipation bounds, and convergence operators. |
 
-### 2.4 Archives, Manifests & Corpus Utilities
+#### 7.2.4 Archives, Manifests & Corpus Utilities
 
 | File | Description |
 | :--- | :--- |
@@ -150,21 +176,21 @@ All primary syntheses, theorem dockets, interactive HTML monographs, and cryptog
 
 ---
 
-## 3. Core Scientific & Transmodal Findings
+#### 7.7.3 Core Scientific & Transmodal Findings
 
-### 3.1 Spectral Band Q (`10^{12}`–`10^{25}` Hz): Quantum Dislocation Tunneling & Metrology
+#### 7.3.1 Spectral Band Q (`10^{12}`–`10^{25}` Hz): Quantum Dislocation Tunneling & Metrology
 * **Petukhov-Pokrovskii Euclidean Bounce Action (`Q-01` `DERIVATION`):** Under bias stress $\sigma$ approaching the Peierls barrier $\sigma_P$ ($\epsilon = 1 - \sigma/\sigma_P \to 0^+$), the Euclidean bounce action for dislocation kink-pair nucleation scales exactly as:
   $$S_B(\epsilon) = \frac{24\sqrt{2}}{5}\, \frac{a^2 \sqrt{M_0\, b\, \sigma_P}}{\pi}\, \epsilon^{5/4} = S_0\, \epsilon^{5/4}$$
 * **Büttiker-Landauer Multi-Phonon Assistance (`Q-02` `DERIVATION`):** An oscillating acoustic drive $\sigma_{\text{ac}}\cos(\omega_{\text{ac}} t)$ dresses the tunneling barrier with traversal time $\tau_B(\epsilon) \propto \epsilon^{-1/4}$, yielding exponential enhancement $\Gamma(\sigma_{\text{ac}}) = \Gamma_0 \sum_{n=-\infty}^{\infty} J_n^2\!\left(\frac{\sigma_{\text{ac}} b a L_c \tau_B}{\hbar}\right) \exp(n\omega_{\text{ac}}\tau_B)$.
 * **Cryogenic Window vs. Room-Temperature Quarantine (`Q-06`, `Q-12` `SOURCE`):** In bulk BCC Fe at `300 K` ($\epsilon = 0.05$), the bounce exponent is $S_B/\hbar \approx 181.4$ while the classical thermal Arrhenius exponent is $U_k/(k_B T) \approx 3.43$. Macroscopic quantum dislocation tunneling is strictly falsified at `300 K` (`SVR-01`–`SVR-04`) and properly restricted to cryogenic regimes ($T < T_c \approx 1\text{–}12\text{ K}$, verified in HCP $\text{He}^4$, LiH, Cu, and Al; Mott 1956, Glen 1975, Startsev 1983).
 * **Metrological Spread in Newton's $G$ (`Q-09` `SOURCE`):** While electromagnetic/quantum constants ($\alpha$, $R_\infty$, $g_e$) are pinned to $10^{-10}\text{–}10^{-13}$, CODATA 2022 records a $550\text{ ppm}$ ($5.5\times 10^{-4}$) discrepancy across high-precision torsion-balance measurements of $G$ (`2.2e-5` official relative uncertainty), exposing a genuine open frontier in weak-field gravitational metrology.
 
-### 3.2 Spectral Band CE (`10^4`–`10^{15}` Hz): Acoustic Softening, Electroplasticity & Piezoelectric Granite
+#### 7.3.2 Spectral Band CE (`10^4`–`10^{15}` Hz): Acoustic Softening, Electroplasticity & Piezoelectric Granite
 * **Blaha-Langenecker Acoustic Softening vs. Thermal Heating (`CE-01`–`CE-03` `SOURCE`/`DERIVATION`):** Ultrasonic stress superposition produces immediate flow-stress reduction $\Delta\sigma_{\text{ac}} = -\alpha M G b \sqrt{\rho_d}\,(\sigma_{\text{ac}}/G)$ at acoustic energy densities $10^2\text{–}10^3\times$ lower than bulk equilibrium melting (`SVR-05` corrects naive linear energy-addition ratios).
 * **Piezoelectric Quartz-Bearing Lithologies (`CE-04`–`CE-06` `SOURCE`/`DERIVATION`):** In granite ($f_q \approx 0.25\text{–}0.35$, $d_{11} = 2.31\times 10^{-12}\text{ C/N}$, $k_{\text{eff}} \approx 0.01\text{–}0.08$), cyclic tectonic/acoustic stress generates localized grain-boundary electric fields $E_{\text{loc}} \sim 10^4\text{–}10^6\text{ V/m}$, driving micro-plasma luminescence and Friedel-type dislocation unpinning (`CE-07`).
 * **Non-Equilibrium Effective Defect Temperature (`CE-08` `DERIVATION`):** Driven dislocation ensembles under combined acoustic + pulsed current (`10^3–10^5 A/cm^2`) occupy a generalized Langevin steady state with $k_B T_{\text{eff}} = k_B T_{\text{lattice}} + \frac{\tau_{\text{rel}}(\sigma_{\text{ac}} b v_d + J_e p_{\text{eff}})^2}{2\eta_{\text{ph}}} \gg k_B T_{\text{lattice}}$.
 
-### 3.3 Spectral Band V (`10^{-4}`–`10^7` Hz): The Onion-Layer / Breathing-Crevice Architecture
+#### 7.3.3 Spectral Band V (`10^{-4}`–`10^7` Hz): The Onion-Layer / Breathing-Crevice Architecture
 Replacing both the cartoon "hollow-Earth void" myth and the textbook "dead, impermeable rock" assumption, the corpus formalizes the **Onion-Layer / Breathing-Crevice Model** (**`OL-1`–`OL-7`** in [`FINAL_MASTER_ANALYSIS_ARGON.md`](FINAL_MASTER_ANALYSIS_ARGON.md) and [`ONION_CREVICE_SYNTHESIS.md`](ONION_CREVICE_SYNTHESIS.md)):
 
 | Tier | Planetary / Crustal Skin | Depth / Scale | Active Breathing-Crevice & Acoustic-Fluid Mechanism |
@@ -177,7 +203,7 @@ Replacing both the cartoon "hollow-Earth void" myth and the textbook "dead, impe
 | **`OL-6`** | Core-Mantle Boundary (`D''` & **ULVZs**) | $2,700\text{–}2,891\text{ km}$ | Post-perovskite lens and Ultra-Low Velocity Zones ($\delta V_P \approx -10\%$, $\delta V_S \approx -30\%$) acting as reactive iron-silicate-volatile crevice reservoirs. |
 | **`OL-7`** | Whole-Earth Normal-Mode Hum | $0\text{–}6,371\text{ km}$ | Continuous background free oscillations (`_0S_0` radial breathing mode at $0.8146\text{ mHz}$ / $T = 1227.5\text{ s}$, $Q \approx 5700$; `_0S_2` at $0.309\text{ mHz}$) pumping the entire nested skin hierarchy. |
 
-### 3.4 CERN & ITER Institutional Correlation
+#### 7.3.4 CERN & ITER Institutional Correlation
 Cross-referencing the Onion-Layer / Breathing-Crevice framework against flagship Big-Science engineering data confirms that modern mega-facilities already engineer around active breathing skins:
 * **CERN LHC (`26.659 km` Tunnel in the Geneva Basin at `50–175 m` Depth):**
   - **Crustal Tidal Breathing:** Semidiurnal/diurnal lunar-solar tides deform the `26.659 km` ring circumference by $\Delta C \approx \pm 1.0\text{ mm}$ ($\varepsilon \approx 3.75\times 10^{-8}$), shifting the `6.5–6.8 TeV` proton beam energy by $\Delta E/E \approx \pm 1.2\times 10^{-4}$ and requiring continuous RF frequency compensation ($\Delta f_{\text{RF}} / f_{\text{RF}} = -\alpha_c^{-1}\Delta C / C$).
@@ -188,7 +214,7 @@ Cross-referencing the Onion-Layer / Breathing-Crevice framework against flagship
   - **Edge-Localized Modes (`ELMs`) as Breathing-Skin Valves:** The H-mode pedestal (`2–5 cm` radial skin) periodically relaxes via `ELMs` (`10–200 Hz`) when edge pressure gradients exceed the Peeling-Ballooning MHD threshold—governed by the exact same stick-slip relaxation math as crustal dehydration fractures (`OL-2`/`OL-3`).
   - **Tungsten (`W`) Divertor Micro-Crevice Evolution:** Under `10–20 MW/m^2` steady heat flux (`0.5–1.0 GW/m^2` transients) and `He`/`T` plasma bombardment, W monoblocks develop nanostructured "helium fuzz" (`10–50 nm` tendrils) and intergranular micro-crevices at `1,200–1,500 °C`.
 
-### 3.5 Transmodal Extensions: Vedic-Plasma (`VPDR-01`) & Bio-Mechanics (`BGCDR-01`)
+#### 7.3.5 Transmodal Extensions: Vedic-Plasma (`VPDR-01`) & Bio-Mechanics (`BGCDR-01`)
 * **Vedic-Plasma Gradient (`VPDR-01`):** Mapping the 7 upper *Lokas* (*Bhurloka* $\to$ *Satyaloka*) against Earth's atmospheric-ionospheric-magnetospheric plasma shells ($0\text{ km}$ troposphere to $>60,000\text{ km}$ magnetopause/solar wind) yields a **log-linear altitude/scale-height regression of $R^2 = 0.9960$** ($p = 4.65\times 10^{-7}$, slope $\beta_1 = 0.7282$) and a `99.92%` monotonic decrease in total energy density ($U_{\text{tot}} = n k_B T + \frac{1}{2}\rho v^2 + \frac{B^2}{2\mu_0}$) from $1.013\times 10^5\text{ J/m}^3$ at the surface to $1.10\times 10^{-10}\text{ J/m}^3$ in the outer magnetosphere.
 * **Bio-Cellular Mechanotransduction (`BGCDR-01`):** Demonstrates how the **`ALPL` gene** (`1p36.12`, `12` exons) encoding **TNAP** (`~50 kDa` homodimer, $\text{Zn}^{2+}/\text{Mg}^{2+}$ catalytic triad) acts as a dual-compile biochemical switch:
   1. **Extracellular Mineral Gate:** Hydrolyzes inorganic pyrophosphate ($\text{PP}_i$, potent hydroxyapatite inhibitor) into $\text{P}_i$, flipping the local $\text{PP}_i/\text{P}_i$ ratio from $>1.0$ (mineral arrest / hypophosphatasia) to $<0.1$ (matrix-vesicle crystal nucleation).
@@ -197,7 +223,7 @@ Cross-referencing the Onion-Layer / Breathing-Crevice framework against flagship
 
 ---
 
-## 4. Consolidated Epistemic Ledger (`256` Audited Claims)
+#### 7.7.4 Consolidated Epistemic Ledger (`256` Audited Claims)
 
 | Research Track / Subsystem | Total Claims | `SOURCE` | `DERIVATION` | `HYPOTHESIS` | `ALLEGORY` | `COMMAND` | `UNVERIFIED` |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -210,9 +236,9 @@ Cross-referencing the Onion-Layer / Breathing-Crevice framework against flagship
 
 ---
 
-## 5. Reproducibility, Unpacking `publish.zip` & SHA-256 Verification
+#### 7.7.5 Reproducibility, Unpacking `publish.zip` & SHA-256 Verification
 
-### 5.1 Unpacking the Complete 142-File Publication Tree
+#### 7.5.1 Unpacking the Complete 142-File Publication Tree
 To extract all subdirectories (`reports_v2/`, `reports_v1_baseline/`, `data_and_manifests/`, `scripts/`, `img/`) from [`publish.zip`](publish.zip):
 
 ```powershell
@@ -223,7 +249,7 @@ Expand-Archive -Path .\publish.zip -DestinationPath .\publish_extracted -Force
 unzip -q publish.zip -d ./publish_extracted
 ```
 
-### 5.2 Cryptographic Integrity Check (`MANIFEST.sha256`)
+#### 7.5.2 Cryptographic Integrity Check (`MANIFEST.sha256`)
 Every file in the publication release is cryptographically pinned in [`MANIFEST.sha256`](MANIFEST.sha256) and [`PUBLISH_MANIFEST.json`](PUBLISH_MANIFEST.json). To verify 100% hash integrity:
 
 ```powershell
@@ -243,7 +269,7 @@ Write-Host "ALL STAGED FILES VERIFIED 100% PASS"
 sha256sum -c MANIFEST.sha256
 ```
 
-### 5.3 Running the Numerical Simulation & Audit Suite
+#### 7.5.3 Running the Numerical Simulation & Audit Suite
 After installing dependencies (`pip install -r requirements.txt`), you can regenerate every numerical array, statistical test, and figure from scratch:
 
 ```bash
@@ -270,10 +296,13 @@ python scripts/stage_and_verify_publish_package.py
 
 ---
 
-## 6. License & Attribution
+---
+
+## 8. License & Attribution
 
 All research monographs, mathematical derivations, claims ledgers, and visual schematics in this repository are licensed under the **Creative Commons Attribution-NonCommercial 4.0 International License ([`CC BY-NC 4.0`](LICENSE))**.
 
 * **Attribution:** You must give appropriate credit to **Lux Aura Official (`luxauraofficial777`)**, provide a link to the license, and indicate if changes were made.
 * **NonCommercial:** You may not use the material for commercial purposes without explicit prior written permission.
 * **Official Repository:** [`https://github.com/luxauraofficial777/vedicscience`](https://github.com/luxauraofficial777/vedicscience)
+
