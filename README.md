@@ -1,11 +1,89 @@
-# VEDIC SCIENCE — Transmodal Study Against Conventional Physics, Sound Logic Theorems, Quantum, and Bio-Mechanics
-<img width="1024" height="572" alt="image" src="https://github.com/user-attachments/assets/0e1fc58e-6245-4ede-9860-4c7b8ea21ee3" />
+
+# VEDIC SCIENCE — Transmodal Study Against Conventional Physics, Sound Logic Theorems, Quantum, and Bio-Mechanics (Revised Edition)
+<img width="1024" height="572" alt="image" src="https://github.com/user-attachments/assets/8cf15f3a-803c-42aa-bb77-2aa84f57aaa6" />
+
+
 **Repository:** [`github.com/luxauraofficial777/vedicscience`](https://github.com/luxauraofficial777/vedicscience)  
-**Corpus Package ID:** `LUXAURA-PUBLISH-SPH01-FINAL` (`Phases 0–5 Consolidated`)  
-**Total Staged & Hash-Verified Assets:** `142` files (`256` Audited Epistemic Claims across `4` Independent Research Tracks)  
+**Corpus Package ID:** `LUXAURA-REVISION-XTR01-FINAL` (`First Edition SPH-01` + `Revised Edition XTR-01 / MSL-ADD-01`)  
+**Governing Specifications:** [`Revision.md`](Revision.md) (`REVISION-01`) · [`MANDATE_ADDENDUM_XTR.md`](MANDATE_ADDENDUM_XTR.md) (`MSL-ADD-01`, Rules `R17`–`R19`) · [`CORPUS_INTEGRATION_REPORT_XTR01.md`](CORPUS_INTEGRATION_REPORT_XTR01.md)  
+**Release Packages:** First Edition [`publish/`](publish/) (`142` files) · Revised Edition [`revision/`](revision/) (Hash-Verified in [`revision/MANIFEST.sha256`](revision/MANIFEST.sha256))  
 **License:** Creative Commons Attribution-NonCommercial 4.0 International ([`CC BY-NC 4.0`](LICENSE))
 
 ---
+
+## 1. Two Editions, One Method: Why This Repository Publishes Both
+
+This repository houses the complete theoretical, mathematical, numerical, and philological corpus of **Project Lux Aura (`vedicscience`)**: a rigorous **transmodal investigation** evaluating ancient Vedic cosmological, acoustic, plasma, and biological frameworks against hardened **Conventional Physics**, **Sound Logic Theorems (`M1`–`M10`)**, **Quantum Mechanics**, **Continuum Geophysics**, and **Cellular Bio-Mechanics**.
+
+As explained in [`Revision.md`](Revision.md) (`REVISION-01`), the corpus is published in **two complete, cryptographically pinned editions side by side**:
+
+1. **First Edition (`SPH-01` — *"House Cards, Dealer Rules"*, archived in [`publish/`](publish/) and root v1 files):**
+   - Extended the **Mandate of Sound Logic (`M1`–`M10`)** across both our own drafts and external published literature, allowing external measurements (`MICROSCOPE`, `PREM`, `IceCube`, `Altmann 2001`, `Dales 1964`, `RRUFF`) to write `CONSISTENT`, `INCONSISTENT`, or `CONTRADICTED` verdicts on corpus claims.
+   - **What It Accomplished:** Caught **14 internal mathematical, unit, and historical defects** in our own v1 files in a single day (including a $1,000\times$ docket division slip and a $25\times$ mason double-count) while exposing a **$550\text{ ppm}$ inter-method spread** across 13 published measurements of Newton's constant $G$ (Xue et al., *Natl. Sci. Rev.* 2020).
+2. **Revised Edition (`XTR-01` / `MSL-ADD-01` — *"Our Cards, Our Rules; Not Applied to Others, in Respect"*, staged in [`revision/`](revision/) and root `*_REVISION.md` files):**
+   - Narrows Mandate verdicts strictly to **our own pre-registered empirical runs (`OWN-TEST`) and self-contained mathematical derivations (`DERIVATION` / `INTERNAL-ARITHMETIC`)** under Rules `R17`–`R19`:
+     - **Rule `R17`:** External published literature is recorded respectfully in full (`value ± uncertainty, source, medium`) as a **boundary bar** (`PRIOR-CONSTRAINED` or `PRIOR-CONSISTENT`), never as an un-re-run verdict.
+     - **Rule `R18`:** Only our own executed data (`OWN-TEST`) or zero-outside-data derivations (`DERIVATION`) write `SUPPORTED`, `CONTRADICTED`, or `INCONSISTENT`.
+     - **Rule `R19`:** Every `PRIOR-CONSTRAINED` or `PROPOSED` claim names the specific pre-registered internal test (`T-1`–`T-9`) that will resolve it.
+
+---
+
+## 2. Quick-Start Index: Revised Edition Root Documents (`*_REVISION.md`)
+
+All original First Edition root documents remain untouched under **Rule `R2`**. The Revised Edition public-facing documents sit alongside them in the repository root with the `_REVISION.md` suffix:
+
+| Revised Edition Root File | First Edition Counterpart | Role & Scope |
+| :--- | :--- | :--- |
+| **[`PUBLIC_REFLECTION_ARGON_REVISION.md`](PUBLIC_REFLECTION_ARGON_REVISION.md)** | [`PUBLIC_REFLECTION_ARGON.md`](PUBLIC_REFLECTION_ARGON.md) | **Public Reflection & Whitepaper Summary (Revised Edition):** Frames *"House Cards, Dealer Rules"* vs. *"Our Cards, Our Rules"*, declares the explicit `PROPOSED` status of the Onion-Layer / Breathing-Crevice lens (`A3-weak`, `D10`), summarizes the 20 `SUPPORTED` truths and 6 `XTR-01` bridges (`B1`–`B6`), and outlines the 9 discovery tests (`T-1`–`T-9`). |
+| **[`FINAL_MASTER_ANALYSIS_ARGON_REVISION.md`](FINAL_MASTER_ANALYSIS_ARGON_REVISION.md)** | [`FINAL_MASTER_ANALYSIS_ARGON.md`](FINAL_MASTER_ANALYSIS_ARGON.md) | **Master Technical Consolidation (Revised Edition):** Complete 9-layer technical synthesis across Bands `Q`, `CE`, `V`, Ladders `L1`–`L3`, Bridges `B1`–`B6`, the full **95-row re-graded claims ledger**, the **Superseded Values Registry**, and all 13 remediated `XTR-01` defects (`D1`–`D13`). |
+| **[`FINAL_MASTER_ANALYSIS_REVISION.md`](FINAL_MASTER_ANALYSIS_REVISION.md)** | [`FINAL_MASTER_ANALYSIS.md`](FINAL_MASTER_ANALYSIS.md) | **Ground-Truth Master Analysis (Revised Edition):** Updated axiom grades (`A1`–`A4`), SVD cavity bridge analysis, `XTR-01` ground-truth ledger, and institutional comparison under `MSL-ADD-01`. |
+| **[`README_REVISION.md`](README_REVISION.md)** | [`README.md`](README.md) | **Revised Edition Repository Guide** (this file). |
+| **[`TOC_REVISION.md`](TOC_REVISION.md)** | [`TOC.md`](TOC.md) | **Revised Edition Master Table of Contents** indexing both `revision/` and `publish/`. |
+| **[`Revision.md`](Revision.md)** | — | **Editorial Charter (`REVISION-01`):** Defines the philosophical and methodological transition from the First Edition to the Revised Edition. |
+| **[`MANDATE_ADDENDUM_XTR.md`](MANDATE_ADDENDUM_XTR.md)** | [`WORK_OFFLOAD_DIRECTIVE_SPH01.md`](WORK_OFFLOAD_DIRECTIVE_SPH01.md) | **Mandate Addendum (`MSL-ADD-01`):** Formal specification of Rules `R17`–`R19` and the 8 Revised Edition status tags. |
+| **[`CORPUS_INTEGRATION_REPORT_XTR01.md`](CORPUS_INTEGRATION_REPORT_XTR01.md)** | [`HARDENING_REPORT.md`](HARDENING_REPORT.md) | **Cross-Check & Integration Audit (`XTR01-INTEGRATION-01`):** Audits Track A (`AgentA/`), Track B (`AgentB/`), and Argon (`extrapolation_XTR01/ARGON/`), documenting defects `D1`–`D13` and the canonical integration map. |
+
+---
+
+## 3. Summary of the 95-Row Re-Evaluated Corpus Ledger (`MSL-ADD-01`)
+
+Across the **95 total claims** in [`extrapolation_XTR01/ARGON/claims_ledger_regraded.csv`](extrapolation_XTR01/ARGON/claims_ledger_regraded.csv) (`56` `SPH-01` core claims + `39` `XTR-01` extrapolation claims):
+
+| Revised Edition Status (`MSL-ADD-01`) | `SPH-01` (`56`) | `XTR-01` (`39`) | Total (`95`) | Share (`%`) | Meaning Under Rules `R17`–`R19` |
+| :--- | :---: | :---: | :---: | :---: | :--- |
+| **`SUPPORTED`** | 16 | 4 | **20** | `21.1%` | Verified by our own pre-registered empirical run (`OWN-TEST`) or zero-outside-data derivation (`DERIVATION` / `COMMAND`) |
+| **`CONTRADICTED`** | 2 | 2 | **4** | `4.2%` | Refuted by our own empirical run (`E4` synodic null) or internal conservation-law no-go (`DERIVATION`) |
+| **`INCONSISTENT`** | 15 | 1 | **16** | `16.8%` | Internal arithmetic, dimensional, or parameter self-contradiction (`INTERNAL-ARITHMETIC`) |
+| **`PRIOR-CONSISTENT`** | 11 | 8 | **19** | `20.0%` | Consistent with external published literature (`EXTERNAL-LITERATURE`); no own test run yet |
+| **`PRIOR-CONSTRAINED`** | 7 | 19 | **26** | `27.4%` | Constrained by an external published bar (`value ± uncertainty, source, medium`); paired with an internal test |
+| **`PROPOSED`** | 0 | 3 | **3** | `3.2%` | Testable hypothesis with stated falsifiers (`A3-weak` / `E4-Mm` `T-3`, dynamic `E1` `T-5`, `L1`–`L3` `T-1`) |
+| **`PROPOSED-INCOMPLETE`** | 1 | 2 | **3** | `3.2%` | Hypothesis missing an internal parameter or field measurement (`T-2`, `T-9`) |
+| **`ALLEGORY`** | 4 | 0 | **4** | `4.2%` | Symbolic operator ($\Psi_g, \Xi_{23D}, P_{\text{bs}}$) or structural metaphor (`A04-002`) |
+
+---
+
+## 4. Key Ground-Truth Highlights of the Revised Edition
+
+1. **The Engineering Core & Planar Seam Leverage (`SUPPORTED`):**
+   - At $\varepsilon_{\text{ac}} = 1.5 \times 10^{-4}$ ($21.5\text{ kHz}$), the Guyer–Johnson–McCall softening factor is $\mathcal{S} = \mathbf{0.5600}$ ($G_{\text{backbone}} = \mathbf{16.80\text{ GPa}}$, $\sigma_t^{\text{eff}} = \mathbf{11.225\text{ MPa}}$, $Q^{-1} = 0.1592$), with zero-modulus polynomial root $\mathcal{S}(\varepsilon)=0$ at $\varepsilon = \mathbf{2.96 \times 10^{-4}}$ and unit loss limit $Q^{-1}=1$ at $\varepsilon = \mathbf{9.42 \times 10^{-4}}$ (`D6`).
+   - Continuous internal friction dissipates $\dot{q}_{\text{hold}} = \mathbf{7.256\text{ MW/m}^3}$, capping a $25\text{ kW}$ array to **$3.445\text{ L}$**—which conditions a **$34.45\text{ m}^2$ ($5.87\text{ m} \times 5.87\text{ m}$) detachment plane** when channeled into a $100\ \mu\text{m}$ foliated parting seam! Paired with the `M7` workforce fix ($24,725 \to \mathbf{989\text{ active masons}}$, $130$ hybrid), monolithic excavation works by cleaving the seam rather than crushing bulk volume.
+2. **The Onion-Layer & Breathing-Crevice Lens (`A3-weak` = `PROPOSED`, `D10`):**
+   - Explicitly graded **`PROPOSED`** with three pre-registered falsifiers (`OpenCodeBP` §6.3, paired with test `T-3`), anchored by two executed `OWN-TEST` results:
+     - **Executed Null (`E4` Synodic Gravimetry — `CONTRADICTED`):** $\delta g/g < \mathbf{4.68 \times 10^{-11}}$ ($\text{UL} = 0.459\text{ nm/s}^2$) at $29.53\text{ d}$, with a non-stationary $2.16\text{–}3.13\times$ excess in the $27.55\text{ d}$ anomalistic perigee band (`E4-Mm`, `PROPOSED`).
+     - **Executed Positive (`XTR-01` Deccan USGS ComCat Fit — `SUPPORTED`):** Gutenberg–Richter exponent **$b = 1.2532$** ($\text{CI}_{95}\ [1.1292, 1.3900]$, $M_c = 4.4$, $N = 492$, `Ellora ±10°`, 2000–2026, `AgentA/outputs/bfit_comcat.json`).
+3. **Dynamic kHz Gravity Search (`E1` / `T-5` = `PROPOSED`, `D5`):**
+   - Detecting $\delta g/g = 1.02 \times 10^{-7}$ at $\varepsilon_{\text{ac}} = 1.5 \times 10^{-4}$ ($21.5\text{ kHz}$) requires $\kappa_{\text{req}} = \mathbf{6.80 \times 10^{-4}}$ (`SUPPORTED` `DERIVATION`), while $\kappa_{\text{allowed}} \le 10^{-11}$ is `PRIOR-CONSTRAINED` on **static** strain only (`D5`), keeping tabletop experiment **`E1` (`T-5`)** open as our #1 laboratory discovery test.
+
+---
+
+## 5. Verifying the Revised Edition Package (`revision/MANIFEST.sha256`)
+
+```powershell
+# Verify all SHA-256 hashes in C:\LuxAura\study\revision\MANIFEST.sha256:
+python extrapolation_XTR01/ARGON/scripts/build_revision_package.py --verify
+```
+
+
 
 ## 1. Mission & Overview
 
